@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+
+    "title": "Envie seus dados",
+    "content": "Você preenche o formulário e envia sua conta de luz para que o nossa equipe conheça o seu perfil de consumo e ofereça as melhores soluções."
+  },
+  {
+    "id": 2,
+    "title": "Receba propostas de redução",
+    "content": "Após analise da sua conta de luz, você receberá um retorno com propostas de desconto. As condições podem variar de acordo."
+  },
+  {
+    "id": 3,
+    "title": "Assinatura digital",
+    "content": "Você recebe o contrato para assinar digitalmente e garante sua vaga em uma usina já pronta que irá gerar a sua energia."
+  },
+  {
+    "id": 4,
+
+    "title": "Sem mudar a sua instalação",
+    "content": "Não precisa se preocupar com instalação ou qualquer alteração na sua estrutura, pois a energia será gerada por nós."
+  },
+  {
+    "id": 5,
+
+    "title": "Monitore e aproveite suas economias",
+    "content": "Você pode acompanhar os seus gastos pela conta de luz, que continuará chegando normalmente no seu endereço, ou via boleto por e-mail."
+  }
+]

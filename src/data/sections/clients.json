@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "lightImage": "/img/tr/logo.png",
+    "darkImage": "/img/clients/brands/dark/01.png",
+    "url": "tr.egenharia.eco.br"
+  },
+  {
+    "id": 2,
+    "lightImage": "/img/tr/logo.png",
+    "darkImage": "/img/clients/brands/dark/02.png",
+    "url": "tr.egenharia.eco.br"
+  },
+  {
+    "id": 3,
+    "lightImage": "/img/tr/logo.png",
+    "darkImage": "/img/clients/brands/dark/03.png",
+    "url": "tr.egenharia.eco.br"
+  },
+  {
+    "id": 4,
+    "lightImage": "/img/tr/logo.png",
+    "darkImage": "/img/clients/brands/dark/04.png",
+    "url": "tr.egenharia.eco.br"
+  },
+  {
+    "id": 5,
+    "lightImage": "/img/tr/logo.png",
+    "darkImage": "/img/clients/brands/dark/05.png",
+    "url": "tr.egenharia.eco.br"
+  },
+  {
+    "id": 6,
+    "lightImage": "/img/tr/logo.png",
+    "darkImage": "/img/clients/brands/dark/06.png",
+    "url": "tr.egenharia.eco.br"
+  },
+  {
+    "id": 7,
+    "lightImage": "/img/tr/logo.png",
+    "darkImage": "/img/clients/brands/dark/07.png",
+    "url": "tr.egenharia.eco.br"
+  },
+  {
+    "id": 8,
+    "lightImage": "/img/tr/logo.png",
+    "darkImage": "/img/clients/brands/dark/08.png",
+    "url": "tr.egenharia.eco.br"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "icon": "pe-7s-smile",
+    "content": "Economia Anual",
+    "value": "500000"
+  },
+  {
+    "id": 2,
+    "icon": "pe-7s-portfolio",
+    "content": "Energia Gerada",
+    "value": "86743248"
+  },
+  {
+    "id": 3,
+    "icon": "pe-7s-medal",
+    "content": "Usinas entregues",
+    "value": "65"
+  }
+]
