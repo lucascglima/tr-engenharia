@@ -9327,3 +9327,6 @@ textarea:focus-visible {
 .nav-style {
   flex-direction: row-reverse;
 }
+.welcome {
+  z-index: 9999999;
+}
