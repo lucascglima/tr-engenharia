@@ -295,7 +295,7 @@ span:hover {
 }
 
 .section-padding {
-  padding: 40px 0;
+  padding: 64px 0;
 }
 
 .section-ptb {
@@ -9327,7 +9327,4 @@ textarea:focus-visible {
 }
 .nav-style {
   flex-direction: row-reverse;
-}
-.welcome {
-  z-index: 9999999;
 }

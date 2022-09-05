@@ -1,9 +1,9 @@
-import getSiblings from './getSiblings'
+import getSiblings from "./getSiblings";
 
 export const handleDropdown = (e) => {
   document
     .getElementById("navbarSupportedContent")
-    .classList.toggle("show-with-trans")
+    .classList.remove("show-with-trans");
 };
 
 export const handleMobileDropdown = (e) => {

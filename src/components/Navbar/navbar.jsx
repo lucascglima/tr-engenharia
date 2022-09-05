@@ -11,7 +11,7 @@ const Navbar = ({ lr, nr, theme }) => {
   return (
     <nav
       ref={nr}
-      className={`navbar navbar-expand-lg change ${
+      className={`navbar navbar-expand-lg change nav-scroll ${
         theme === "themeL" ? "light" : ""
       }`}
     >
@@ -47,38 +47,95 @@ const Navbar = ({ lr, nr, theme }) => {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
-            <li className="nav-item">
-              {/* <Link to="container" smooth={true} duration={250}> */}
+            <li
+              onClick={handleMobileDropdown}
+              className="nav-item"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="true"
+              aria-label="Toggle navigation"
+            >
               <a className="nav-link" onClick={scrollTop}>
                 Home
               </a>
-              {/* </Link> */}
             </li>
-            <li className="nav-item">
-              <Link to="howItWorks" smooth={true} duration={1000}>
-                <a className="nav-link">Redução na conta</a>
+            <li
+              className="nav-item"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="true"
+              aria-label="Toggle navigation"
+            >
+              <Link
+                onClick={handleDropdown}
+                to="howItWorks"
+                active={true}
+                smooth={true}
+                duration={1000}
+                className="nav-link"
+              >
+                Redução na conta
               </Link>
             </li>
-            <li className="nav-item">
-              <Link to="projects" smooth={true} duration={1000}>
-                <a className="nav-link">Projetos</a>
+
+            <li
+              className="nav-item"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="true"
+              aria-label="Toggle navigation"
+            >
+              <Link
+                onClick={handleDropdown}
+                to="projects"
+                active={true}
+                smooth={true}
+                duration={1000}
+                className="nav-link"
+              >
+                Projetos
               </Link>
             </li>
-            <li className="nav-item">
-              <Link to="whoWeAre" smooth={true} duration={1000}>
-                <a className="nav-link">Quem somos</a>
+
+            <li
+              className="nav-item"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="true"
+              aria-label="Toggle navigation"
+            >
+              <Link
+                onClick={handleDropdown}
+                to="whoWeAre"
+                active={true}
+                smooth={true}
+                duration={1000}
+                className="nav-link"
+              >
+                Quem somos
               </Link>
             </li>
-            {/* <li className="nav-item">
-              <Link to="first" smooth={true} duration={1000} containerId="containerElement">
-                <a className="nav-link">
-                  Time
-                </a>
-              </Link>
-            </li> */}
-            <li className="nav-item">
-              <Link to="footer" smooth={true} duration={1000}>
-                <a className="nav-link">Contato</a>
+            <li
+              className="nav-item"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="true"
+              aria-label="Toggle navigation"
+            >
+              <Link
+                onClick={handleDropdown}
+                to="footer"
+                active={true}
+                smooth={true}
+                duration={1000}
+                className="nav-link"
+              >
+                Contato
               </Link>
             </li>
           </ul>
