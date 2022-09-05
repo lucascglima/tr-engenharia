@@ -128,7 +128,7 @@ module.exports = require("react/jsx-dev-runtime");
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"lightLogo":"/img/logo.png","darkLogo":"/img/logo.png","showLoading":true}');
+module.exports = JSON.parse('{"lightLogo":"/img/tr/logo-min.svg","darkLogo":"/img/tr/logo-min.svg","showLoading":true}');
 
 /***/ })
 
