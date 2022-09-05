@@ -295,7 +295,7 @@ span:hover {
 }
 
 .section-padding {
-  padding: 90px 0;
+  padding: 40px 0;
 }
 
 .section-ptb {
@@ -7988,7 +7988,7 @@ body {
   margin-top: 30px;
 }
 
-.contact .cont-info h3 {
+.contact .cont-info h3:not(.color-font) {
   font-size: 18px;
   font-weight: 400;
   letter-spacing: 2px;
@@ -8810,7 +8810,7 @@ footer .item .copy-right p a {
   }
 
   .sec-head h3 {
-    font-size: 30px;
+    font-size: 24px;
   }
 
   .sec-head h6 {
@@ -9032,7 +9032,7 @@ footer .item .copy-right p a {
   }
 
   .sec-head h3 {
-    font-size: 20px;
+    font-size: 24px;
   }
 
   .sec-head h2 {
@@ -9071,7 +9071,8 @@ footer .item .copy-right p a {
 
   .min-area .content h4,
   .agency .content h4 {
-    font-size: 28px;
+    font-size: 35px;
+    text-align: center;
   }
 
   .portfolio .gallery .items {

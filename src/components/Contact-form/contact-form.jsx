@@ -21,7 +21,7 @@ const ContactForm = () => {
           <div className="row">
             <div className="col-lg-6">
               <div className="form md-mb50">
-                <h4 className="wow color-font mb-50">Fale conosco.</h4>
+                <h3 className="wow color-font mb-50">Fale conosco</h3>
                 <Formik
                   initialValues={{
                     name: "",
@@ -102,26 +102,27 @@ const ContactForm = () => {
             </div>
             <div className="col-lg-5 offset-lg-1">
               <div className="cont-info">
-                <h4 className="fw-700 color-font mb-50">Contato</h4>
+                <h3 className="wow color-font mb-50">Contato</h3>
                 <h3 className="wow" data-splitting>
                   {ContactFromDate.title}
                 </h3>
                 <div className="item mb-40">
                   <h5>
-                    <a href="#0">{ContactFromDate.email}</a>
+                    e-mail: <a href="#0">{ContactFromDate.email}</a>
                   </h5>
-                  <h5>{ContactFromDate.phone}</h5>
+                  <h5> telefone: {ContactFromDate.phone}</h5>
                 </div>
                 <h3 className="wow" data-splitting>
                   Visite nosso escritório
                 </h3>
                 <div className="item">
                   <h6>
-                    {ContactFromDate.location.first}
+                    Endereço: {ContactFromDate.location.first}
                     <br />
                     {ContactFromDate.location.second}
                   </h6>
                 </div>
+
                 <div className="social mt-50">
                   <h3 className="wow" data-splitting>
                     Acompanhe nossas redes
@@ -138,6 +139,9 @@ const ContactForm = () => {
                   <a href="https://web.facebook.com/TR-Energia-Solar-108003291793647/">
                     <i className="fab fa-facebook"></i>
                   </a>
+                </div>
+                <div className="item mt-50">
+                  <h6>{ContactFromDate.location.third}</h6>
                 </div>
               </div>
             </div>

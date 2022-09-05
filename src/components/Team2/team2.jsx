@@ -8,7 +8,7 @@ const Team2 = () => {
         <div className="row justify-content-center">
           <div className="col-lg-8 col-md-10">
             <div className="sec-head text-center">
-              <h4 className="wow color-font animated">Nosso Time</h4>
+              <h1 className="wow color-font animated">Nosso Time</h1>
             </div>
           </div>
         </div>

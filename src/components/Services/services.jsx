@@ -12,12 +12,12 @@ const Services = ({ style, lines }) => {
               <h6 className="fw-100 text-u ls10 mb-10">
                 Economize, sem precisar investir
               </h6>
-              <h4
-                className="fw-600 text-u ls1 mb-30 color-font"
+              <h3
+                className="wow fw-600 text-u ls1 mb-30 color-font"
                 data-wow-delay=".5s"
               >
                 Como Funciona?
-              </h4>
+              </h3>
             </div>
           </div>
         </div>
