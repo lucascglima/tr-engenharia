@@ -48,7 +48,7 @@ const Homepage1 = () => {
     <LightTheme>
       <Navbar nr={navbarRef} lr={logoRef} />
       <IntroWithSlider sliderRef={fixedSlider} />
-      <div ref={MainContent} className="main-content">
+      <div ref={MainContent} className="main-content ">
         <AboutUs />
         <Services />
         <Numbers2 />

@@ -102,13 +102,13 @@ const Works = () => {
                 ref={navigationNextRef}
                 className="swiper-button-next swiper-nav-ctrl simp-next cursor-pointer"
               >
-                <span className="simple-btn right black-text">Seguinte </span>
+                <i className="fas fa-chevron-right text-white"></i>
               </div>
               <div
                 ref={navigationPrevRef}
                 className="swiper-button-prev swiper-nav-ctrl simp-prev cursor-pointer"
               >
-                <span className="simple-btn">Anterior</span>
+                <i className="fas fa-chevron-left text-white"></i>
               </div>
             </div>
           </div>

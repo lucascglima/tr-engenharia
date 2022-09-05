@@ -121,14 +121,17 @@ const IntroWithSlider = ({ sliderRef }) => {
         <div ref={paginationRef} className="swiper-pagination top botm"></div>
 
         <div className="social-icon">
-          <a href="#0">
-            <i className="fab fa-facebook-f"></i>
+          <a href="https://api.whatsapp.com/send?phone=55819999888888">
+            <i className="fab fa-whatsapp"></i>
           </a>
-          <a href="#0">
+          <a href="https://www.linkedin.com/company/tr-energia-solar/?originalSubdomain=br">
+            <i className="fab fa-linkedin"></i>
+          </a>
+          <a href="https://www.instagram.com/tr.energiasolar/">
             <i className="fab fa-instagram"></i>
           </a>
-          <a href="#0">
-            <i className="fab fa-whatsapp"></i>
+          <a href="https://web.facebook.com/TR-Energia-Solar-108003291793647/">
+            <i className="fab fa-facebook"></i>
           </a>
         </div>
       </div>
