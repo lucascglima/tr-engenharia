@@ -631,7 +631,7 @@ module.exports = JSON.parse('{"lightLogo":"/img/tr/logo-min.svg","darkLogo":"/im
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"id":1,"smallTitle":"Redução na conta de energia","title":"Sem instalação, sem custo, sem manutenção","content":"Não precisa instalar equipamento nem se preocupar com manutenção. Caso a geração seja interrompida, você pagará normalmente a distribuidora. Exatamente como é sua situação atual. Se por qualquer razão quiser cancelar, sua energia continuará sendo fornecida pela distribuidora, exatamente como é hoje.","image":"/img/tr/vantagens-min-jpeg"}');
+module.exports = JSON.parse('{"id":1,"smallTitle":"Redução na conta de energia","title":"Sem instalação, sem custo, sem manutenção","content":"Não precisa instalar equipamento nem se preocupar com manutenção. Caso a geração seja interrompida, você pagará normalmente a distribuidora. Exatamente como é sua situação atual. Se por qualquer razão quiser cancelar, sua energia continuará sendo fornecida pela distribuidora, exatamente como é hoje.","image":"/img/tr/vantagens-min.jpeg"}');
 
 /***/ }),
 
