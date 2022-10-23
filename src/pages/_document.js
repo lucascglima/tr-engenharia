@@ -22,14 +22,10 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
 
-          <noscript>
-            <iframe
-              src="https://www.googletagmanager.com/ns.html?id=G-S5NTR0PR8S"
-              height="0"
-              width="0"
-              style="display:none;visibility:hidden"
-            ></iframe>
-          </noscript>
+          <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-S5NTR0PR8S"
+          ></script>
         </Head>
 
         <body>
