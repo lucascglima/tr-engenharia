@@ -11,11 +11,9 @@ const Clients = ({ theme }) => {
       <div className="container">
         <div className="row">
           <div className="col-lg-4 valign md-mb50">
-            <div className="sec-head mb-0">
-              <h6 className="wow fadeIn" data-wow-delay=".5s">
-                Confiança
-              </h6>
-              <h3 className="wow mb-20 color-font">Clientes</h3>
+            <div className="mb-50">
+              <h6 className="fw-100 text-u ls2">Confiança</h6>
+              <h4 className="fw-900 text-u ls1 mb-30 color-font">Clientes</h4>
               <p>
                 Clientes que confiam em nosso trabalho e estão gerando economia
                 e crescendo junto com a gente.

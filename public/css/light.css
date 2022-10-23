@@ -105,11 +105,11 @@ h4 {
 }
 
 h5 {
-  font-size: 25px;
+  font-size: 16px;
 }
 
 h6 {
-  font-size: 18px;
+  font-size: 12px;
 }
 
 h1,
@@ -128,7 +128,7 @@ p {
   color: #888;
   font-size: 16px;
   font-weight: 300;
-  line-height: 2;
+  line-height: 1.4;
   margin: 0;
 }
 
@@ -1560,7 +1560,7 @@ body {
 
 .sec-head h6 {
   font-weight: 300;
-  font-size: 17px;
+  /* font-size: 17px; */
   text-transform: uppercase;
   letter-spacing: 7px;
   margin-bottom: 10px;
@@ -1665,7 +1665,7 @@ body {
 /* ====================== [  Start Button Style ] ====================== */
 .butn {
   padding: 15px 35px;
-  font-size: 13px;
+  font-size: 16px;
   border: 1px solid transparent;
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
@@ -4398,8 +4398,10 @@ body {
 .services .item-box {
   padding: 40px 60px;
   text-align: left;
-  background-color: #eeeeee;
+  background-color: #eeeeee66;
   border: none;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgb(96 97 112 / 16%);
 }
 
 .services .item-box .icon {
@@ -4817,12 +4819,12 @@ body {
   padding-left: 40px;
 }
 
-.min-area .content h4 {
+/* .min-area .content h4 {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 1.5;
   margin-bottom: 20px;
-}
+} */
 
 .min-area .content ul {
   margin: 0;
@@ -4846,7 +4848,7 @@ body {
 }
 
 .min-area .content ul.feat li {
-  padding: 0 0 30px 0;
+  padding: 0 0 25px 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
@@ -5765,7 +5767,7 @@ body {
 
 .work-carousel .noraidus .cont h6 {
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 100;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 10px;
@@ -8253,7 +8255,7 @@ footer .item .copy-right p a {
   }
 
   .navbar .nav-link {
-    margin: 10px auto !important;
+    margin: 0px auto !important;
   }
 
   .navbar .logo {
@@ -8634,7 +8636,7 @@ footer .item .copy-right p a {
   }
 
   h4 {
-    font-size: 20px;
+    font-size: 24px;
   }
 
   h5 {
@@ -8642,7 +8644,7 @@ footer .item .copy-right p a {
   }
 
   h6 {
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .progress-wrap {
@@ -8814,8 +8816,8 @@ footer .item .copy-right p a {
   }
 
   .sec-head h6 {
-    font-size: 15px;
-    letter-spacing: 5px;
+    font-size: 12px;
+    letter-spacing: 2px;
   }
 
   .agency .imgsec .exp {
@@ -9284,12 +9286,13 @@ button:focus {
   border-radius: 4px;
   border: none !important;
   border-color: transparent;
-  padding: 16px 72px;
+  /* padding: 16px 72px; */
 }
 
 .item-how-works {
   color: #151d2a;
-  margin-bottom: 16px;
+  margin-bottom: 30px;
+  min-height: 200px !important;
 }
 .team .item .img:after {
   background: #151d2a !important;

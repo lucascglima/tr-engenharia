@@ -18,18 +18,18 @@ const MinimalArea = () => {
             </div>
             <div className="col-lg-6 valign">
               <div className="content pt-0">
-                <h4 className="wow color-font">Quem somos</h4>
+                <h4 className="fw-900 text-u ls1 mb-30 color-font">
+                  Quem somos
+                </h4>
                 <p className="wow txt" data-splitting>
                   Somos uma empresa do setor de energia com atuação nacional.
                   Nosso trabalho é voltado geração de energia limpa e assim
                   reduzir o impacto ambiental do setor.
                 </p>
-                <ul className="feat">
+                <ul className="feat pl-0">
                   <li className="wow fadeInUp" data-wow-delay=".2s">
-                    <h6>
-                      <span>1</span> Missão
-                    </h6>
-                    <p>
+                    <h5 className="fw-900 mb-10">Missão</h5>
+                    <p className="pl-0">
                       Verticalizar soluções para todas as etapas de
                       desenvolvimento de projetos de energia. Assim teremos
                       soluções mais completas e integradas para a gestão e
@@ -37,20 +37,16 @@ const MinimalArea = () => {
                     </p>
                   </li>
                   <li className="wow fadeInUp" data-wow-delay=".4s">
-                    <h6>
-                      <span>2</span> Visão
-                    </h6>
-                    <p>
+                    <h5 className="fw-900 mb-10">Visão</h5>
+                    <p className="pl-0">
                       Oferecer uma solução completa dentro do cenário de energia
                       para investidores, fornecedores de equipamentos e empresas
                       do setor energético, desde o projeto até a implementação.
                     </p>
                   </li>
                   <li className="wow fadeInUp" data-wow-delay=".6s">
-                    <h6>
-                      <span>3</span> Valores
-                    </h6>
-                    <p>
+                    <h5 className="fw-900 mb-10">Valores</h5>
+                    <p className="pl-0">
                       Responsabilidade e compromisso com o meio ambiente.
                       Mantemos sempre como princípios o profissionalismo e a
                       ética.
