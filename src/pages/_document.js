@@ -24,7 +24,7 @@ class MyDocument extends Document {
 
           <noscript>
             <iframe
-              src="https://www.googletagmanager.com/ns.html?id=GTM-PJN53SP"
+              src="https://www.googletagmanager.com/ns.html?id=G-S5NTR0PR8S"
               height="0"
               width="0"
               style="display:none;visibility:hidden"
