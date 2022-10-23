@@ -21,7 +21,9 @@ const ContactForm = () => {
           <div className="row">
             <div className="col-lg-6">
               <div className="form md-mb50">
-                <h3 className="wow color-font mb-50">Fale conosco</h3>
+                <h4 className="fw-900 text-u ls1 mb-30 color-font">
+                  Fale conosco
+                </h4>
                 <Formik
                   initialValues={{
                     name: "",
@@ -102,31 +104,30 @@ const ContactForm = () => {
             </div>
             <div className="col-lg-5 offset-lg-1">
               <div className="cont-info">
-                <h3 className="wow color-font mb-50">Contato</h3>
-                <h3 className="wow" data-splitting>
+                <h4 className="fw-900 text-u ls1 mb-30 color-font">Contato</h4>
+                <h3 className="wow" data-wow-delay=".5s" data-splitting>
                   {ContactFromDate.title}
                 </h3>
                 <div className="item mb-40">
-                  <h5>
-                    e-mail: <a href="#0">{ContactFromDate.email}</a>
-                  </h5>
-                  <h5> telefone: {ContactFromDate.phone}</h5>
+                  <h5 className="fw-900 mb-10">EMAIL:</h5>
+                  <p>
+                    <a href="#0">{ContactFromDate.email}</a>
+                  </p>
+                  <h5 className="fw-900 mb-10"> TELEFONE:</h5>
+                  <p>{ContactFromDate.phone}</p>
                 </div>
-                <h3 className="wow" data-splitting>
-                  Visite nosso escritório
-                </h3>
+                <h5 className="fw-900 mb-10">Visite nosso escritório</h5>
                 <div className="item">
-                  <h6>
-                    Endereço: {ContactFromDate.location.first}
+                  <h5 className="fw-900 mb-10">ENDEREÇO:</h5>
+                  <p>
+                    {ContactFromDate.location.first}
                     <br />
                     {ContactFromDate.location.second}
-                  </h6>
+                  </p>
                 </div>
 
                 <div className="social mt-50">
-                  <h3 className="wow" data-splitting>
-                    Acompanhe nossas redes
-                  </h3>
+                  <h5 className="fw-900 mb-10">Acompanhe nossas redes</h5>
                   <a href="https://api.whatsapp.com/send?phone=55819999888888">
                     <i className="fab fa-whatsapp"></i>
                   </a>

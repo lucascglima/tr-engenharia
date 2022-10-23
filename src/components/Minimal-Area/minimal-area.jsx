@@ -21,7 +21,7 @@ const MinimalArea = () => {
                 <h4 className="fw-900 text-u ls1 mb-30 color-font">
                   Quem somos
                 </h4>
-                <p className="wow txt" data-splitting>
+                <p className="wow fadeInUp" data-wow-delay=".2s">
                   Somos uma empresa do setor de energia com atuação nacional.
                   Nosso trabalho é voltado geração de energia limpa e assim
                   reduzir o impacto ambiental do setor.

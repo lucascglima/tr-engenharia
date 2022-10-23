@@ -295,7 +295,7 @@ span:hover {
 }
 
 .section-padding {
-  padding: 64px 0;
+  padding: 84px 0 !important;
 }
 
 .section-ptb {
@@ -1800,11 +1800,12 @@ body {
 }
 
 .navbar .navbar-nav .nav-link {
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 400;
   color: #fff;
   padding: 15px 7px;
   margin: 10px 15px;
+  font-family: "Suprapower", sans-serif;
 }
 
 .navbar .navbar-nav .dropdown-menu {
@@ -2617,16 +2618,15 @@ body {
 }
 
 .slider .social-icon {
-  position: absolute;
-  left: 40px;
-  bottom: 40px;
+  position: relative;
+  bottom: 64px;
   z-index: 8;
 }
 
 .slider .social-icon a {
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
   text-align: center;
 
   color: #fff;
@@ -8144,7 +8144,8 @@ footer .item .copy-right p a {
 /* ====================== [ Start Responsive ] ====================== */
 .navbar .navbar-collapse.show-with-trans {
   opacity: 1;
-  padding: 10px 15px;
+  /* padding: 10px 15px; */
+
   height: auto;
 }
 @media screen and (max-width: 991px) {
@@ -8552,6 +8553,9 @@ footer .item .copy-right p a {
 }
 
 @media screen and (max-width: 767px) {
+  .navbar-nav > li {
+    margin: 16px !important;
+  }
   .nav-scroll {
     padding: 8px 12px;
   }
@@ -9073,7 +9077,10 @@ footer .item .copy-right p a {
 
   .min-area .content h4,
   .agency .content h4 {
-    font-size: 35px;
+    /* font-size: 35px; */
+    text-align: center;
+  }
+  h4.color-font {
     text-align: center;
   }
 
@@ -9233,7 +9240,14 @@ div#particles-js {
 section.next-prog.section-padding {
   overflow: hidden;
 }
+.sec-head {
+  margin: 0;
+}
+
 @media (max-width: 768px) {
+  .section-padding {
+    padding: 68px 0 24px !important;
+  }
   a.col-md-3.popimg {
     padding: 0;
     margin-bottom: 15px;
@@ -9329,5 +9343,5 @@ textarea:focus-visible {
   cursor: pointer;
 }
 .nav-style {
-  flex-direction: row-reverse;
+  flex-direction: row;
 }

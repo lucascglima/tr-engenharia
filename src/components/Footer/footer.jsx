@@ -17,7 +17,7 @@ const Footer = ({ hideBGCOLOR }) => {
                 <li>
                   <span className="icon pe-7s-map-marker"></span>
                   <div className="cont">
-                    <h6>Endereço</h6>
+                    <h5 className="fw-900 mb-10">Endereço</h5>
                     <p>Be Work casa Forte: Praça de casa forte, 46 - Sala 13</p>
                   </div>
                 </li>

@@ -1,5 +1,5 @@
 {
-  "name": "Tr-engenharia-site",
+  "name": "tr-engenharia-site",
   "private": true,
   "scripts": {
     "dev": "next dev",

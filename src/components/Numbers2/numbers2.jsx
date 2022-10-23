@@ -18,9 +18,8 @@ const Numbers2 = () => {
                   className="wow fw-900 text-u ls1  color-font"
                   data-wow-delay=".5s"
                 >
-                  Nossos Projetos
+                  NOSSOS PROJETOS
                 </h3>
-                {/* <h3 className="wow color-font">Como Funciona</h3> */}
               </div>
             </div>
           </div>
@@ -78,13 +77,11 @@ const Numbers2 = () => {
                           <span className="count" ref={countUpRef} />
                         </VisibilitySensor>
                       )}
-                    </CountUp>{" "}
-                    kWh{" "}
+                    </CountUp>
                   </h4>
                   <Split>
                     <h5 className="fw-900 mb-10" data-splitting>
-                      {" "}
-                      Geração mensal{" "}
+                      Kwh de Geração mensal
                     </h5>
                   </Split>
                 </div>

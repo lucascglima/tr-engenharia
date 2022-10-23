@@ -18,9 +18,9 @@ const CallToAction = ({ img }) => {
                   >
                     Monte seu projeto de ENERGIA SOLAR
                   </h6>
-                  <h2 className="wow words chars splitting" data-splitting>
-                    Fale cononosco
-                  </h2>
+                  <h4 className="fw-900 text-u ls1 mb-30 color-font">
+                    Fale conosco
+                  </h4>
                 </Split>
               </div>
             </div>
