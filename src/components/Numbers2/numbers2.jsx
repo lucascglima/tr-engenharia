@@ -14,19 +14,22 @@ const Numbers2 = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8 col-md-10">
               <div className="sec-head  text-center">
-                <h1 className="wow fadeInLeft color-font" data-wow-delay=".5s">
+                <h3
+                  className="wow fw-900 text-u ls1  color-font"
+                  data-wow-delay=".5s"
+                >
                   Nossos Projetos
-                </h1>
+                </h3>
                 {/* <h3 className="wow color-font">Como Funciona</h3> */}
               </div>
             </div>
           </div>
-          <div className="number-sec">
+          <div className="number-sec pt-60 pb-60">
             <div className="row">
               <div className="col-lg-3 col-md-6">
                 <div className="item md-mb50">
                   <span className="icon pe-7s-sun"></span>
-                  <h3 className="custom-font">
+                  <h4 className="fw-900 text-u ls1 mb-30 color-font text-center">
                     &nbsp;
                     <CountUp redraw={true} end={60} duration="3">
                       {({ countUpRef, start }) => (
@@ -35,19 +38,19 @@ const Numbers2 = () => {
                         </VisibilitySensor>
                       )}
                     </CountUp>
-                  </h3>
+                  </h4>
                   <Split>
-                    <h6 className="wow words chars splitting " data-splitting>
+                    <h5 className="fw-900 mb-10" data-splitting>
                       Usinas Geradoras
-                    </h6>
+                    </h5>
                   </Split>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6">
                 <div className="item md-mb50">
                   <span className="icon pe-7s-cash"></span>
-                  <h3 className="custom-font">
-                    &nbsp;R$
+                  <h4 className="fw-900 text-u ls1 mb-30 color-font">
+                    &nbsp; R${" "}
                     <CountUp redraw={true} end={189} duration="3">
                       {({ countUpRef, start }) => (
                         <VisibilitySensor onChange={start} delayedCall>
@@ -56,21 +59,18 @@ const Numbers2 = () => {
                       )}
                     </CountUp>
                     k
-                  </h3>
+                  </h4>
                   <Split>
-                    <h6
-                      className="wow txt words chars splitting "
-                      data-splitting
-                    >
+                    <h5 className="fw-900 mb-10" data-splitting>
                       Economia mensal
-                    </h6>
+                    </h5>
                   </Split>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6">
                 <div className="item sm-mb50">
                   <span className="icon pe-7s-gleam"></span>
-                  <h3 className="custom-font">
+                  <h4 className="fw-900 text-u ls1 mb-30 color-font">
                     &nbsp;
                     <CountUp redraw={true} end={57886} duration="3">
                       {({ countUpRef, start }) => (
@@ -78,24 +78,21 @@ const Numbers2 = () => {
                           <span className="count" ref={countUpRef} />
                         </VisibilitySensor>
                       )}
-                    </CountUp>
-                    kWh
-                  </h3>
+                    </CountUp>{" "}
+                    kWh{" "}
+                  </h4>
                   <Split>
-                    <h6
-                      className="wow txt words chars splitting"
-                      data-splitting
-                    >
+                    <h5 className="fw-900 mb-10" data-splitting>
                       {" "}
                       Geração mensal{" "}
-                    </h6>
+                    </h5>
                   </Split>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6">
                 <div className="item">
                   <span className="icon pe-7s-leaf"></span>
-                  <h3 className="custom-font">
+                  <h4 className="fw-900 text-u ls1 mb-30 color-font">
                     &nbsp; -
                     <CountUp redraw={true} end={18555} duration="3">
                       {({ countUpRef, start }) => (
@@ -104,14 +101,9 @@ const Numbers2 = () => {
                         </VisibilitySensor>
                       )}
                     </CountUp>
-                  </h3>
+                  </h4>
                   <Split>
-                    <h6
-                      className="wow txt words chars splitting"
-                      data-splitting
-                    >
-                      Kg de Co₂ por ano
-                    </h6>
+                    <h5 className="fw-900 mb-10">Kg de CO2 por ano</h5>
                   </Split>
                 </div>
               </div>

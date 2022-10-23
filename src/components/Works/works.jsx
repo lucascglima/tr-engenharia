@@ -85,13 +85,20 @@ const Works = () => {
                           <h6 className="color-font">
                             <a href="#0">{item.title}</a>
                           </h6>
-                          <h4>
+                          <h6 className="fw-900 mb-10" data-splitting>
+                            <Link
+                              href={`/project-details2/project-details2-dark`}
+                            >
+                              {item.subtitle}
+                            </Link>
+                          </h6>
+                          <h5 className="fw-900 mb-10" data-splitting>
                             <Link
                               href={`/project-details2/project-details2-dark`}
                             >
                               {item.secTex}
                             </Link>
-                          </h4>
+                          </h5>
                         </div>
                       </div>
                     </SwiperSlide>
