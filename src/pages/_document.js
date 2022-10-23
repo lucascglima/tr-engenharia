@@ -21,6 +21,15 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
             rel="stylesheet"
           />
+
+          <noscript>
+            <iframe
+              src="https://www.googletagmanager.com/ns.html?id=GTM-PJN53SP"
+              height="0"
+              width="0"
+              style="display:none;visibility:hidden"
+            ></iframe>
+          </noscript>
         </Head>
 
         <body>
