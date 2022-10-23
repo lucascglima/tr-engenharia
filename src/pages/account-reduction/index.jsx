@@ -48,7 +48,7 @@ const PageCTA = () => {
                         <div className="form-group">
                           <Field
                             id="form_accontValue"
-                            type="text"
+                            type="number"
                             name="accontValue"
                             placeholder="Valor médio da conta"
                             required="required"
