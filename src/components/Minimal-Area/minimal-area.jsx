@@ -22,9 +22,10 @@ const MinimalArea = () => {
                   Quem somos
                 </h4>
                 <p className="wow fadeInUp" data-wow-delay=".2s">
-                  Somos uma empresa do setor de energia com atuação nacional.
-                  Nosso trabalho é voltado geração de energia limpa e assim
-                  reduzir o impacto ambiental do setor.
+                  Uma empresa que pensa no futuro. Com economia e
+                  responsabilidade, para atender melhor você e sua empresa.
+                  Estamos comprometidos em estabelecer novos padrões industriais
+                  e em fornecer energia limpa, de modo responsável.
                 </p>
                 <ul className="feat pl-0">
                   <li className="wow fadeInUp" data-wow-delay=".2s">
@@ -39,17 +40,19 @@ const MinimalArea = () => {
                   <li className="wow fadeInUp" data-wow-delay=".4s">
                     <h5 className="fw-900 mb-10">Visão</h5>
                     <p className="pl-0">
-                      Oferecer uma solução completa dentro do cenário de energia
-                      para investidores, fornecedores de equipamentos e empresas
-                      do setor energético, desde o projeto até a implementação.
+                      Fornecemos uma solução completa dentro do cenário de
+                      energia para investidores, fornecedores de equipamentos e
+                      empresas do setor energético, desde o projeto até a
+                      implementação.
                     </p>
                   </li>
                   <li className="wow fadeInUp" data-wow-delay=".6s">
                     <h5 className="fw-900 mb-10">Valores</h5>
                     <p className="pl-0">
-                      Responsabilidade e compromisso com o meio ambiente.
-                      Mantemos sempre como princípios o profissionalismo e a
-                      ética.
+                      Promovemos os melhores recursos para compor soluções
+                      tecnológicas com responsabilidade e compromisso com o meio
+                      ambiente. Mantemos sempre como princípios o
+                      profissionalismo e a ética.
                     </p>
                   </li>
                 </ul>

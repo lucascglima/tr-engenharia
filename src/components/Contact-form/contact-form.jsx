@@ -116,7 +116,9 @@ const ContactForm = () => {
                   <h5 className="fw-900 mb-10"> TELEFONE:</h5>
                   <p>{ContactFromDate.phone}</p>
                 </div>
-                <h5 className="fw-900 mb-10">Visite nosso escritório</h5>
+                <h3 className="wow" data-wow-delay=".5s" data-splitting>
+                  Visite nosso escritório
+                </h3>
                 <div className="item">
                   <h5 className="fw-900 mb-10">ENDEREÇO:</h5>
                   <p>
