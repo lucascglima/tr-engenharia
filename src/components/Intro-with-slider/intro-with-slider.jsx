@@ -92,7 +92,7 @@ const IntroWithSlider = ({ sliderRef }) => {
                           {slide?.content && <p>{slide.content}</p>}
                           <Link href="/account-reduction">
                             <a className="butn bord curve mt-30 btn-cta">
-                              <span>SIMULE AGORA SUA ECONOMIA</span>
+                              <span>SOLICITAR AGORA</span>
                             </a>
                           </Link>
                         </div>

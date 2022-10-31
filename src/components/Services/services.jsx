@@ -10,7 +10,7 @@ const Services = ({ style, lines }) => {
           <div className="col-lg-12 col-md-12 text-center">
             <div className="sec-head  text-center">
               <h6 className="fw-100 text-u ls2 mb-10 text-center">
-                Economize, sem precisar investir
+                Contratação simples e descomplicada{" "}
               </h6>
               <h3
                 className="wow fw-900 text-u ls1 mb-30 color-font"
@@ -37,13 +37,20 @@ const Services = ({ style, lines }) => {
             </div>
           ))}
         </div>
+        <div className="text-center">
+          <Link href="/account-reduction">
+            <a className="butn bord curve mt-30 btn-cta">
+              <span>SIMULE AGORA</span>
+            </a>
+          </Link>
+        </div>
       </div>
-      {lines ? (
+      {/* {lines ? (
         <>
           <div className="line top left"></div>
           <div className="line bottom right"></div>
         </>
-      ) : null}
+      ) : null} */}
     </section>
   );
 };

@@ -9,7 +9,7 @@ const LightTheme = ({ children, mobileappstyle }) => {
   }, []);
   return (
     <>
-      <Element name="container" id="containerElement">
+      <Element name="container" id="containerElement" className="wow">
         <Head>
           <link rel="stylesheet" href="/css/light.css" />
           {mobileappstyle ? (
