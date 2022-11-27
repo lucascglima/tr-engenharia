@@ -59,7 +59,7 @@ const PageCTA = () => {
                 <div className="fw-600">E-mail: </div>
                 <span> {email}</span>
               </div>
-              <Link href="/">
+              <Link href="/tr">
                 <button type="submit" className="btn-reduction-white mt-40">
                   <span>Confirmar dados</span>
                 </button>
