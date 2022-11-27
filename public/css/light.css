@@ -9326,7 +9326,7 @@ li::marker {
 .contact .form input,
 .contact .form textarea {
   color: black !important;
-  padding: 12px 8px !important;
+  padding: 12px 8px;
 }
 textarea:focus-visible {
   border-color: #151d2a !important;
