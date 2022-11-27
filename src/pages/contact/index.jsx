@@ -32,6 +32,7 @@ const PageCTA = () => {
 
   return (
     <LightTheme>
+      <div className="progress-bar-contact"></div>
       <section className="reduction contact section-padding-reduction ">
         <div className="container">
           <div className="row justify-center">
@@ -62,7 +63,16 @@ const PageCTA = () => {
                       values.accountValue = new Intl.NumberFormat(
                         "pt-BR"
                       ).format(parseFloat(useStorage().getItem("accontValue")));
-                      useStorage().setItem("contact", JSON.stringify(values));
+                      useStorage().setItem("contact", values);
+                      useStorage().setItem("name", values.name);
+                      useStorage().setItem("email", values.email);
+                      useStorage().setItem("phoneNumber", values.phoneNumber);
+                      useStorage().setItem("company", values.company);
+                      useStorage().setItem("privacy", values.privacy);
+                      useStorage().setItem(
+                        "accountValue",
+                        JSON.stringify(values.accountValue)
+                      );
 
                       // clear message
                       messageRef.current.innerText = null;

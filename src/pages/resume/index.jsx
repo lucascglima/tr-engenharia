@@ -16,8 +16,10 @@ const PageCTA = () => {
     year: "numeric",
   });
 
-  const contact = useStorage().getItem("contact");
-  const { name, phoneNumber, company, email } = JSON.parse(contact);
+  const name = useStorage().getItem("name");
+  const phoneNumber = useStorage().getItem("phoneNumber");
+  const company = useStorage().getItem("company");
+  const email = useStorage().getItem("email");
 
   return (
     <LightTheme>
@@ -45,7 +47,7 @@ const PageCTA = () => {
               </div>
               <div className="mb-25">
                 <div className="fw-600">Nome completo: </div>
-                <span> {name}</span>
+                <span> {name.toString()}</span>
               </div>
               <div className="mb-25">
                 <div className="fw-600">Telefone: </div>
