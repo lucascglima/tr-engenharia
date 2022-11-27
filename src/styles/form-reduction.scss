@@ -1,0 +1,109 @@
+input[type="checkbox"] {
+  width: 25px !important;
+  height: 1rem;
+  margin-right: 0.5rem;
+}
+.form-checkbox > label {
+  margin-bottom: 0 !important;
+}
+.progress-bar-account {
+  position: absolute;
+  width: 20%;
+  height: 16px;
+  background-color: #b78b4b;
+}
+.progress-bar-economy {
+  position: absolute;
+  width: 40%;
+  height: 16px;
+  background-color: #b78b4b;
+}
+.progress-bar-resume {
+  position: absolute;
+  width: 100%;
+  height: 16px;
+  background-color: #b78b4b;
+}
+.logo-reduction {
+  max-width: 100px;
+}
+.reduction {
+  padding-top: 10%;
+}
+.btn-reduction {
+  width: 100%;
+  background-color: #151d2a;
+  height: 44px;
+  font-family: "Suprapower";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 135%;
+  color: #eeeeee;
+}
+.btn-reduction-white {
+  width: 100%;
+  background-color: #eeeeee;
+  height: 44px;
+  font-family: "Suprapower";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 135%;
+  color: #151d2a;
+}
+
+.section-padding-reduction {
+  padding: 140px 0 0 !important;
+}
+.section-padding-economy {
+  min-height: 100vh;
+  background-color: #151d2a;
+  padding: 40px 0 !important;
+  height: 100%;
+}
+
+.logo-economy {
+  text-align: center;
+}
+.logo-economy > img {
+  width: 100px;
+}
+.text-gold {
+  color: #b78b4b;
+}
+.economy-result {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.economy-result > div > img {
+  width: 100px;
+}
+
+.form-input {
+  width: 465px;
+  height: 35.66px;
+
+  font-family: "TT Travels";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 135%;
+  /* or 22px */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+
+  /* Gray Scale/Gray-base */
+
+  color: #65717e;
+}
+
+.text-red {
+  color: red;
+}
+.d-none {
+  display: none;
+}

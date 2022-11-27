@@ -2,7 +2,13 @@ import React from "react";
 import { Formik, Form, Field } from "formik";
 import LightTheme from "../../layouts/Light";
 import data from "../../data/sections/account-reduction.json";
+import CurrencyInput from "react-currency-input-field";
+import { formatValue } from "react-currency-input-field";
+import { useRouter } from "next/router";
+import useStorage from "../../common/usageStore";
 const PageCTA = () => {
+  const router = useRouter();
+
   const messageRef = React.useRef(null);
   function validateEmail(value) {
     let error;
@@ -14,8 +20,15 @@ const PageCTA = () => {
     return error;
   }
   const sendMessage = (ms) => new Promise((r) => setTimeout(r, ms));
+  const formCurrency = formatValue({
+    value: "000",
+    groupSeparator: ",",
+    decimalSeparator: ".",
+    prefix: "$",
+  });
   return (
     <LightTheme>
+      <div className="progress-bar-account"></div>
       <section className="reduction contact section-padding-reduction ">
         <div className="container">
           <div className="row justify-center">
@@ -27,9 +40,12 @@ const PageCTA = () => {
                 <h5 className="fw-900 text-u ls1 mb-100 color-font">
                   Quanto você gasta em média na sua conta de luz?
                 </h5>
+
                 <Formik
                   initialValues={{
                     accontValue: "",
+                    highVoltage: false,
+
                     // name: "",
                     // email: "",
                     // phoneNumber: "",
@@ -37,25 +53,40 @@ const PageCTA = () => {
                     // highVoltage: '',
                     // policity: "",
                   }}
-                  onSubmit={(values) => {
-                    console.log(values);
+                  onSubmit={(values, actions) => {
+                    useStorage().setItem("accontValue", values.accontValue);
+                    useStorage().setItem("highVoltage", values.highVoltage);
+                    router.push({
+                      pathname: "/economy",
+                    });
                   }}
                 >
-                  {({ errors, touched }) => (
+                  {({ errors, touched, values }) => (
                     <Form id="contact-form">
                       <div className="messages" ref={messageRef}></div>
                       <div className="controls mb-30">
                         <div className="form-group">
-                          <Field
+                          <CurrencyInput
                             id="form_accontValue"
-                            type="number"
                             name="accontValue"
                             placeholder="Valor médio da conta"
+                            decimalsLimit={2}
                             required="required"
+                            prefix="R$"
+                            onValueChange={(value, name) => {
+                              sessionStorage.setItem("accountValue", value);
+                            }}
                           />
+                          <div className="d-flex form-checkbox mb-25 mt-25 align-items-center">
+                            <Field type="checkbox" name="highVoltage" />
+                            <label>Minha conta é de alta tensão</label>
+                          </div>
                         </div>
                       </div>
-                      <p className="mb-50 text-center">
+                      <p className="mb-25 text-center">
+                        Serviço exclusivo apenas para contas de PERNAMBUCO.
+                      </p>
+                      <p className="mb-25 text-center">
                         Mais de uma conta? Digite a soma de todas.
                       </p>
                       <button type="submit" className="btn-reduction">

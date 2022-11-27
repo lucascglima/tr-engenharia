@@ -5,6 +5,7 @@ import Script from "next/script";
 import ScrollToTop from "../components/scrollToTop";
 import LoadingScreen from "../components/Loading-Screen";
 import "../styles/main.scss";
+import "../styles/form-reduction.scss";
 
 function MyApp({ Component, pageProps }) {
   return (
