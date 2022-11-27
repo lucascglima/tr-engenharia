@@ -9326,7 +9326,7 @@ li::marker {
 .contact .form input,
 .contact .form textarea {
   color: black !important;
-  padding: 12px 8px !important;
+  padding: 12px 8px;
 }
 textarea:focus-visible {
   border-color: #151d2a !important;
@@ -9342,27 +9342,6 @@ textarea:focus-visible {
   flex-direction: row;
 }
 
-.logo-reduction {
-  max-width: 100px;
-}
 .justify-center {
   justify-content: center;
-}
-.reduction {
-  padding-top: 10%;
-}
-.btn-reduction {
-  width: 100%;
-  background-color: #151d2a;
-  height: 44px;
-  font-family: "Suprapower";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 14px;
-  line-height: 135%;
-  color: #eeeeee;
-}
-
-.section-padding-reduction {
-  padding: 140px 0 0 !important;
 }

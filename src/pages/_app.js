@@ -5,6 +5,7 @@ import Script from "next/script";
 import ScrollToTop from "../components/scrollToTop";
 import LoadingScreen from "../components/Loading-Screen";
 import "../styles/main.scss";
+import "../styles/form-reduction.scss";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -29,7 +30,7 @@ function MyApp({ Component, pageProps }) {
         strategy="beforeInteractive"
         src="/js/isotope.pkgd.min.js"
       ></Script>
-      <Script id="wowInit" strategy="lazyOnload">{`new WOW().init();`}</Script>
+      <Script id="wowInit" strategy="lazyOnload">{`new wow().init();`}</Script>
     </>
   );
 }
