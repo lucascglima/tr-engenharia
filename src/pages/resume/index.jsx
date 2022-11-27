@@ -16,8 +16,8 @@ const PageCTA = () => {
     year: "numeric",
   });
 
-  const contact = JSON.parse(useStorage().getItem("contact"));
-  const { name, phoneNumber, company, email } = contact;
+  const contact = useStorage().getItem("contact");
+  const { name, phoneNumber, company, email } = JSON.parse(contact);
 
   return (
     <LightTheme>
@@ -59,7 +59,7 @@ const PageCTA = () => {
                 <div className="fw-600">E-mail: </div>
                 <span> {email}</span>
               </div>
-              <Link href="/tr">
+              <Link href="/">
                 <button type="submit" className="btn-reduction-white mt-40">
                   <span>Confirmar dados</span>
                 </button>
