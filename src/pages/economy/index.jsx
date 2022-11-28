@@ -21,8 +21,12 @@ const PageCTA = () => {
   const trees = new Intl.NumberFormat("pt-BR").format(
     Number(useStorage().getItem("accountValue") * 0.2).toFixed(0)
   );
-  const car = Number(co2 * 0.49).toFixed(0);
-  const beef = Number(co2 * 27).toFixed(0);
+  const car = new Intl.NumberFormat("pt-BR").format(
+    Number(Number(useStorage().getItem("accountValue") * 0.8) * 0.49).toFixed(0)
+  );
+  const beef = new Intl.NumberFormat("pt-BR").format(
+    Number(Number(useStorage().getItem("accountValue") * 0.8) * 27).toFixed(0)
+  );
 
   return (
     <LightTheme>
