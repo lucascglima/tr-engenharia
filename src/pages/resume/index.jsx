@@ -28,6 +28,7 @@ const PageCTA = () => {
         <div className="container">
           <div className="row justify-center ">
             <div className="col-lg-6 text-white">
+              <div className="text-right text-gold">4/4</div>
               <div className="logo-reduction mb-50">
                 <img src={data.logo} alt="logo" />
               </div>

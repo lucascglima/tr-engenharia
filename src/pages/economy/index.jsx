@@ -35,10 +35,10 @@ const PageCTA = () => {
         <div className="container">
           <div className="row justify-center text-center">
             <div className="col-lg-6">
+              <div className="text-right text-gold">2/4</div>
               <div className="logo-economy mb-50">
                 <img src={data.logo} alt="logo" />
-              </div>
-
+              </div>{" "}
               <h5 className="fw-900 text-u  mb-40  text-white ">
                 Ao receber energia solar, você economiza:{" "}
               </h5>

@@ -1680,12 +1680,25 @@ body {
 }
 
 .butn.bord {
+  background: -webkit-linear-gradient(
+    to right,
+    #182848,
+    #4b6cb7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #182848, #4b6cb7);
   border: 1px solid #000;
 }
 
 .butn.bord:hover {
-  background: #151d2a;
-  color: #fff;
+  color: #b78b4b;
+  background: -webkit-linear-gradient(
+    to right,
+    #182848,
+    #4b6cb7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #182848, #4b6cb7);
+  /* background: #151d2a; */
+  /* color: #fff; */
 }
 
 .butn.light {

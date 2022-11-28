@@ -36,6 +36,7 @@ const PageCTA = () => {
               <div className="logo-reduction mb-50">
                 <img src={data.logo} alt="logo" />
               </div>
+              <div className="text-right">1/4</div>
               <div className="form md-mb50">
                 <h4 className="fw-900 text-u ls1 mb-50 color-font">
                   Quanto você gasta em média na sua conta de luz?

@@ -40,6 +40,7 @@ const PageCTA = () => {
               <div className="logo-reduction mb-50">
                 <img src={data.logo} alt="logo" />
               </div>
+              <div className="text-right">3/4</div>
               <div className="form md-mb50">
                 <h5 className="fw-900 text-u ls1 mb-40 color-font">
                   Quais são os seus dados para contato?

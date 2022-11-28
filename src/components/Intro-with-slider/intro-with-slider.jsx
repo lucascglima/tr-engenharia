@@ -91,7 +91,7 @@ const IntroWithSlider = ({ sliderRef }) => {
                           <h1 className="white-font">{slide.title}</h1>
                           {slide?.content && <p>{slide.content}</p>}
                           <Link href="/account-reduction">
-                            <a className="butn bord curve mt-30 btn-cta">
+                            <a className="butn mt-30 btn-cta">
                               <span>SOLICITAR AGORA</span>
                             </a>
                           </Link>
