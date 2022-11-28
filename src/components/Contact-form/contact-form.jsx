@@ -7,7 +7,7 @@ const ContactForm = () => {
   function validateEmail(value) {
     let error;
     if (!value) {
-      error = "Required";
+      error = "Campo Obrigatório";
     } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(value)) {
       error = "Endereço de email invalido";
     }
@@ -36,22 +36,26 @@ const ContactForm = () => {
                     alert(JSON.stringify(values, null, 2));
                     // show message
 
-                    messageRef.current.innerText =
-                      "Your Message has been successfully sent. I will contact you soon.";
+                    messageRef.current.innerText = `Sua mensagem foi enviada com sucesso.
+                    Nós entraremos em contato com você em breve.`;
+                    messageRef.current.className = "messages";
+
                     // Reset the values
+
                     values.name = "";
                     values.email = "";
-                    vaçies.subject = "";
+                    values.subject = "";
                     values.message = "";
                     // clear message
                     setTimeout(() => {
-                      messageRef.current.innerText = "";
-                    }, 2000);
+                      messageRef.current.className = "hidden";
+                      messageRef.current.innerText == null;
+                    }, 5000);
                   }}
                 >
                   {({ errors, touched }) => (
                     <Form id="contact-form">
-                      <div className="messages" ref={messageRef}></div>
+                      <div className="" ref={messageRef}></div>
                       <div className="controls">
                         <div className="form-group">
                           <Field

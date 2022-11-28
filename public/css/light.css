@@ -9360,6 +9360,15 @@ textarea:focus-visible {
 .justify-center {
   justify-content: center;
 }
-.whoWeAre{
+.whoWeAre {
   padding: 32px 0;
+}
+.messages {
+  background-color: #151d2a;
+  color: #eeeeee;
+  padding: 12px;
+  margin: 12px 0;
+}
+.hidden{
+  display: none;
 }
