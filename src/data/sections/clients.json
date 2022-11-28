@@ -9,19 +9,19 @@
     "id": 2,
     "lightImage": "/img/tr/clients/beijupira.png",
     "darkImage": "/img/tr/clients/beijupira.png",
-    "url": "Beijupirá"
+    "url": "Restaurante Beijupirá"
   },
   {
     "id": 3,
     "lightImage": "/img/tr/clients/sante.png",
     "darkImage": "/img/tr/clients/sante.png",
-    "url": "Academia Santé"
+    "url": "Santé Club Recife"
   },
   {
     "id": 4,
     "lightImage": "/img/tr/clients/treno.png",
     "darkImage": "/img/tr/clients/treno.png",
-    "url": "Treno Academia"
+    "url": "Treno Fitness"
   },
   {
     "id": 5,
@@ -33,7 +33,7 @@
     "id": 6,
     "lightImage": "/img/tr/clients/faaca.png",
     "darkImage": "/img/tr/clients/faaca.png",
-    "url": "Faaca"
+    "url": "Faaca boteco e parrilla"
   },
   {
     "id": 7,
@@ -45,6 +45,6 @@
     "id": 8,
     "lightImage": "/img/tr/clients/bework.jpg",
     "darkImage": "/img/tr/clients/bework.jpg",
-    "url": "Be work"
+    "url": "Be work escritórios"
   }
 ]
