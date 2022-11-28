@@ -9385,3 +9385,7 @@ textarea:focus-visible {
 .hidden {
   display: none;
 }
+iframe {
+  width: 100vw;
+  height: 100vh;
+}

@@ -4,6 +4,7 @@ import LightTheme from "../../layouts/Light";
 import data from "../../data/sections/account-reduction.json";
 import InputMask from "react-input-mask";
 import useStorage from "../../common/usageStore";
+import Link from "next/link";
 import { useRouter } from "next/router";
 const PageCTA = () => {
   const router = useRouter();
@@ -148,7 +149,19 @@ const PageCTA = () => {
                             required="required"
                           />
                           <label>
-                            Li e concordo com a Política de Privacidade
+                            Li e concordo com a{" "}
+                            <span
+                              className="politicy-privacy"
+                              target="_blank"
+                              onClick={() => {
+                                window.open(
+                                  "https://www.trenergiasolar.eco.br/politicy-privacy",
+                                  "_blank"
+                                );
+                              }}
+                            >
+                              Políica de Privacidade
+                            </span>
                           </label>
                         </div>
                       </div>
