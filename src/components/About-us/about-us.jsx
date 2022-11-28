@@ -21,7 +21,7 @@ const AboutUs = () => {
                 </h4>
                 <p>{AboutUs1Date.content}</p>
                 <Link href="/account-reduction">
-                  <a className="butn bord curve mt-30 btn-cta">
+                  <a className="butn bord curve mt-40 btn-cta">
                     <span>RECEBA ECONOMIA NA SUA CONTA</span>
                   </a>
                 </Link>

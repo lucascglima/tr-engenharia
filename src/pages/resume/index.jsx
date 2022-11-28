@@ -24,7 +24,7 @@ const PageCTA = () => {
   return (
     <LightTheme>
       <div className="progress-bar-resume"></div>
-      <section className="reduction contact section-padding-economy  ">
+      <section className="reduction section-padding-economy ">
         <div className="container">
           <div className="row justify-center ">
             <div className="col-lg-6 text-white">
@@ -64,7 +64,7 @@ const PageCTA = () => {
               </div>
               <Link href="/">
                 <button type="submit" className="btn-reduction-white mt-40">
-                  <span>Voltar pro site</span>
+                  <span>VOLTAR PRO SITE</span>
                 </button>
               </Link>
             </div>

@@ -77,7 +77,7 @@ const PageCTA = () => {
               </div>
               <Link href="/contact">
                 <button type="submit" className="btn-reduction-white mt-40">
-                  <span>Quero economizar</span>
+                  <span>QUERO ECONOMIZAR</span>
                 </button>
               </Link>
             </div>

@@ -91,7 +91,7 @@ const PageCTA = () => {
                         Mais de uma conta? Digite a soma de todas.
                       </p>
                       <button type="submit" className="btn-reduction">
-                        <span>Continuar</span>
+                        <span>CONTINUAR</span>
                       </button>
                     </Form>
                   )}

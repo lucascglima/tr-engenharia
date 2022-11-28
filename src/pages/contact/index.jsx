@@ -33,7 +33,7 @@ const PageCTA = () => {
   return (
     <LightTheme>
       <div className="progress-bar-contact"></div>
-      <section className="reduction contact section-padding-reduction ">
+      <section className="reduction contact ">
         <div className="container">
           <div className="row justify-center">
             <div className="col-lg-6">
@@ -154,7 +154,7 @@ const PageCTA = () => {
                       </div>
 
                       <button type="submit" className="btn-reduction">
-                        <span>Continuar</span>
+                        <span>CONTINUAR</span>
                       </button>
                     </Form>
                   )}
