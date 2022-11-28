@@ -31,14 +31,14 @@ const PageCTA = () => {
               <div className="logo-reduction mb-50">
                 <img src={data.logo} alt="logo" />
               </div>
-              <h5 className="fw-600 mb-20  text-white">
+              <h5 className="fw-600 mb-25  text-white">
                 Pedido de energia limpa feita com sucesso!
               </h5>
-              <div className="fw-500 mb-20  text-white">
+              <div className="fw-500 mb-25  text-white">
                 Estamos analisando seus dados e a resposta do seu pedido chega
-                por WhatsApp.
+                por WhatsApp e e-mail.
               </div>
-              <div className="text-white mb-40">
+              <div className="text-white fw-600 mb-10">
                 Confira as suas informações:
               </div>
               <div className="mb-25">

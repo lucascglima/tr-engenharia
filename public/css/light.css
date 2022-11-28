@@ -125,7 +125,7 @@ h6 {
 }
 
 p {
-  color: #888;
+  color: #65717e;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.4;
@@ -1684,7 +1684,7 @@ body {
 }
 
 .butn.bord:hover {
-  background: #111;
+  background: #151d2a;
   color: #fff;
 }
 
@@ -1711,18 +1711,7 @@ body {
 }
 
 .butn.color {
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(#12c2e9),
-    color-stop(#c471ed),
-    to(#f64f59)
-  );
-  background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: -o-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
-  border: transparent;
+  background: -webkit-linear-gradient(to right, #182848, #4b6cb7);
 }
 
 .butn.color:hover {
@@ -9296,7 +9285,33 @@ button:focus {
   border-radius: 4px;
   border: none !important;
   border-color: transparent;
+  text-align: center;
+
   /* padding: 16px 72px; */
+}
+
+.btn-cta:active {
+  opacity: 0.8;
+
+  /* padding: 16px 72px; */
+}
+.btn-cta:hover span {
+  padding-right: 8px;
+  border: white;
+}
+
+.btn-cta:hover span:after {
+  padding-left: 16px;
+  content: "\00bb";
+  font-size: 16px;
+  opacity: 1;
+  right: 0;
+}
+.btn-cta span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
 }
 
 .item-how-works {

@@ -13,11 +13,16 @@ const PageCTA = () => {
   const number = Number(useStorage().getItem("accountValue")).toFixed(2);
   const economyPerYear = new Intl.NumberFormat("pt-BR", {
     minimumFractionDigits: 2,
-  }).format(Number(useStorage().getItem("accountValue")));
+  }).format(Number(useStorage().getItem("accountValue") * 0.2 * 12));
 
   const co2 = new Intl.NumberFormat("pt-BR").format(
-    Number(useStorage().getItem("accountValue") * 6)
+    Number(useStorage().getItem("accountValue") * 0.8)
   );
+  const trees = new Intl.NumberFormat("pt-BR").format(
+    Number(useStorage().getItem("accountValue") * 0.2).toFixed(0)
+  );
+  const car = Number(co2 * 0.49).toFixed(0);
+  const beef = Number(co2 * 27).toFixed(0);
 
   return (
     <LightTheme>
@@ -30,17 +35,17 @@ const PageCTA = () => {
                 <img src={data.logo} alt="logo" />
               </div>
 
-              <h5 className="fw-900 text-u ls1 mb-40  text-white ">
+              <h5 className="fw-900 text-u  mb-40  text-white ">
                 Ao receber energia solar, você economiza:{" "}
               </h5>
-              <h2 className="fw-900 text-u ls1 mb-20  text-gold">
+              <h2 className="fw-900 text-u  mb-20  text-gold">
                 R$ {economyPerYear}
               </h2>
               <span className="text-white mb-40">em média por ano</span>
-              <h5 className="fw-900 text-u ls1 mb-40  text-white ">
+              <h5 className="fw-900 text-u  mb-40  text-white ">
                 e protege o meio ambiente ao deixar de emitir:
               </h5>
-              <h2 className="fw-900 text-u ls1 mb-20  text-gold">
+              <h2 className="fw-900 text-u  mb-20  text-gold">
                 {co2} kg de CO²
               </h2>
               <span className="text-white mb-40">
@@ -50,19 +55,19 @@ const PageCTA = () => {
                 <div>
                   <img src={data.trees} alt="trees" />
                   <span className="text-white mt-40">
-                    Plantar 131323 árvores
+                    Plantar <span>{trees}</span> árvores
                   </span>
                 </div>
                 <div>
                   <img src={data.car} alt="car" />
                   <span className="text-white mt-40">
-                    Não rodar 45.806km em um carro
+                    Não rodar <span>{car}</span>km em um carro
                   </span>
                 </div>
                 <div>
                   <img src={data.cow} alt="cow" />
                   <span className="text-white mt-40">
-                    Não comer 122kg de carne
+                    Não comer <span>{beef} </span>kg de carne
                   </span>
                 </div>
               </div>
