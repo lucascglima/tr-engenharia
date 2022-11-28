@@ -37,9 +37,9 @@ const PageCTA = () => {
                 <img src={data.logo} alt="logo" />
               </div>
               <div className="form md-mb50">
-                <h5 className="fw-900 text-u ls1 mb-100 color-font">
+                <h4 className="fw-900 text-u ls1 mb-100 color-font">
                   Quanto você gasta em média na sua conta de luz?
-                </h5>
+                </h4>
 
                 <Formik
                   initialValues={{
@@ -69,7 +69,7 @@ const PageCTA = () => {
                           <CurrencyInput
                             id="form_accontValue"
                             name="accontValue"
-                            placeholder="Valor médio da conta"
+                            placeholder="Valor médio da conta (R$)"
                             decimalsLimit={2}
                             required="required"
                             prefix="R$"
@@ -79,14 +79,15 @@ const PageCTA = () => {
                           />
                           <div className="d-flex form-checkbox mb-25 mt-25 align-items-center">
                             <Field type="checkbox" name="highVoltage" />
-                            <label>Minha conta é de alta tensão</label>
+                            <p>Minha conta é de alta tensão</p>
                           </div>
                         </div>
                       </div>
-                      <p className="mb-25 text-center">
-                        Serviço exclusivo apenas para contas de PERNAMBUCO.
+                      <p className="mb-25 ">
+                        Serviço exclusivo apenas para contas de{" "}
+                        <span className="pe-state">PERNAMBUCO</span>.
                       </p>
-                      <p className="mb-25 text-center">
+                      <p className="mb-25 ">
                         Mais de uma conta? Digite a soma de todas.
                       </p>
                       <button type="submit" className="btn-reduction">

@@ -126,3 +126,8 @@ input:focus-visible {
   border: 1px solid rgba(0, 0, 0, 0.3);
   padding: 12px !important;
 }
+.pe-state,
+.pe-state:hover {
+  font-weight: 600;
+  text-decoration: underline;
+}
