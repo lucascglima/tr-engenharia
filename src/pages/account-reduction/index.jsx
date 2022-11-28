@@ -84,7 +84,7 @@ const PageCTA = () => {
                         </div>
                       </div>
                       <p className="mb-25 ">
-                        Serviço exclusivo apenas para contas do estado de{" "}
+                        Serviço exclusivo para contas do estado de{" "}
                         <span className="pe-state">PERNAMBUCO</span>.
                       </p>
                       <p className="mb-25 ">

@@ -1,50 +1,50 @@
 [
   {
     "id": 1,
-    "lightImage": "/img/tr/logo-min.svg",
-    "darkImage": "/img/tr/logo-min.svg",
-    "url": "tr.egenharia.eco.br"
+    "lightImage": "/img/tr/clients/arena-bv.png",
+    "darkImage": "/img/tr/clients/arena-bv.png",
+    "url": "Arena Boa viagem"
   },
   {
     "id": 2,
-    "lightImage": "/img/tr/logo-min.svg",
-    "darkImage": "/img/tr/logo-min.svg",
-    "url": "tr.egenharia.eco.br"
+    "lightImage": "/img/tr/clients/beijupira.png",
+    "darkImage": "/img/tr/clients/beijupira.png",
+    "url": "Beijupirá"
   },
   {
     "id": 3,
-    "lightImage": "/img/tr/logo-min.svg",
-    "darkImage": "/img/tr/logo-min.svg",
-    "url": "tr.egenharia.eco.br"
+    "lightImage": "/img/tr/clients/sante.png",
+    "darkImage": "/img/tr/clients/sante.png",
+    "url": "Academia Santé"
   },
   {
     "id": 4,
-    "lightImage": "/img/tr/logo-min.svg",
-    "darkImage": "/img/tr/logo-min.svg",
-    "url": "tr.egenharia.eco.br"
+    "lightImage": "/img/tr/clients/treno.png",
+    "darkImage": "/img/tr/clients/treno.png",
+    "url": "Treno Academia"
   },
   {
     "id": 5,
-    "lightImage": "/img/tr/logo-min.svg",
-    "darkImage": "/img/tr/logo-min.svg",
-    "url": "tr.egenharia.eco.br"
+    "lightImage": "/img/tr/clients/arcadia.png",
+    "darkImage": "/img/tr/clients/arcadia.png",
+    "url": "Arcádia Recepções"
   },
   {
     "id": 6,
-    "lightImage": "/img/tr/logo-min.svg",
-    "darkImage": "/img/tr/logo-min.svg",
-    "url": "tr.egenharia.eco.br"
+    "lightImage": "/img/tr/clients/faaca.png",
+    "darkImage": "/img/tr/clients/faaca.png",
+    "url": "Faaca"
   },
   {
     "id": 7,
-    "lightImage": "/img/tr/logo-min.svg",
-    "darkImage": "/img/tr/logo-min.svg",
-    "url": "tr.egenharia.eco.br"
+    "lightImage": "/img/tr/clients/oma.jpg",
+    "darkImage": "/img/tr/clients/oma.jpg",
+    "url": "Oma pâtisserie bistrô"
   },
   {
     "id": 8,
-    "lightImage": "/img/tr/logo-min.svg",
-    "darkImage": "/img/tr/logo-min.svg",
-    "url": "tr.egenharia.eco.br"
+    "lightImage": "/img/tr/clients/bework.jpg",
+    "darkImage": "/img/tr/clients/bework.jpg",
+    "url": "Be work"
   }
 ]
