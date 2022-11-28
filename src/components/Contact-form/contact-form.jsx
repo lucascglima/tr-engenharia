@@ -9,7 +9,7 @@ const ContactForm = () => {
     if (!value) {
       error = "Required";
     } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(value)) {
-      error = "Invalid email address";
+      error = "Endereço de email invalido";
     }
     return error;
   }
@@ -110,9 +110,7 @@ const ContactForm = () => {
                 </h3>
                 <div className="item mb-40">
                   <h5 className="fw-900 mb-10">EMAIL:</h5>
-                  <p>
-                    <a href="#0">{ContactFromDate.email}</a>
-                  </p>
+                  <p>{ContactFromDate.email}</p>
                   <h5 className="fw-900 mb-10"> TELEFONE:</h5>
                   <p>{ContactFromDate.phone}</p>
                 </div>

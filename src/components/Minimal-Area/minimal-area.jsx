@@ -3,7 +3,7 @@ import React from "react";
 import { Element } from "react-scroll";
 const MinimalArea = () => {
   return (
-    <Element name="whoWeAre">
+    <Element name="whoWeAre " className="whoWeAre">
       <section className="min-area white-bg">
         <div className="container">
           <div className="row">

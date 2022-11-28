@@ -8,6 +8,7 @@ const Navbar = ({ lr, nr, theme }) => {
   const scrollTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth", duration: "5000" });
   };
+
   return (
     <nav
       ref={nr}

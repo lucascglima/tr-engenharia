@@ -9360,3 +9360,6 @@ textarea:focus-visible {
 .justify-center {
   justify-content: center;
 }
+.whoWeAre{
+  padding: 32px 0;
+}
