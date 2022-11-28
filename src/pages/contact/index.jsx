@@ -110,7 +110,7 @@ const PageCTA = () => {
                         <div className="form-group">
                           <InputMask
                             id="form_phoneNumber"
-                            type="text"
+                            type="tel"
                             name="phoneNumber"
                             required="required"
                             maskPlaceholder={null}
