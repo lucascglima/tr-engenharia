@@ -137,8 +137,7 @@ const PageCTA = () => {
                             id="form_company"
                             type="text"
                             name="company"
-                            placeholder="Nome fantasia da empresa"
-                            required="required"
+                            placeholder="Nome da empresa"
                           />
                         </div>
                         <div className="d-flex form-checkbox mb-25 mt-25 align-items-center">
