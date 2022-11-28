@@ -34,7 +34,7 @@ input[type="checkbox"] {
   max-width: 100px;
 }
 .reduction {
-  padding-top: 10%;
+  padding-top: 48px;
 }
 .btn-reduction {
   width: 100%;
@@ -65,7 +65,7 @@ input[type="checkbox"] {
 .section-padding-economy {
   min-height: 100vh;
   background-color: #151d2a;
-  padding: 40px 0 !important;
+  padding: 48px 0 !important;
   height: 100%;
 }
 
@@ -130,4 +130,7 @@ input:focus-visible {
 .pe-state:hover {
   font-weight: 600;
   text-decoration: underline;
+}
+.progress-wrap.active-progress {
+  display: none;
 }

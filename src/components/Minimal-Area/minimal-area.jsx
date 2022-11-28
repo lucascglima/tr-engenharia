@@ -21,7 +21,7 @@ const MinimalArea = () => {
                 <h4 className="fw-900 text-u ls1 mb-30 color-font">
                   Quem somos
                 </h4>
-                <p className="wow fadeInUp" data-wow-delay=".2s">
+                <p className="wow fadeInUp ls1" data-wow-delay=".2s">
                   Uma empresa que pensa no futuro. Com economia e
                   responsabilidade, para atender melhor você e sua empresa.
                   Estamos comprometidos em estabelecer novos padrões industriais

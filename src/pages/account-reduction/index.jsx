@@ -29,7 +29,7 @@ const PageCTA = () => {
   return (
     <LightTheme>
       <div className="progress-bar-account"></div>
-      <section className="reduction contact section-padding-reduction ">
+      <section className="reduction contact ">
         <div className="container">
           <div className="row justify-center">
             <div className="col-lg-6">
@@ -37,7 +37,7 @@ const PageCTA = () => {
                 <img src={data.logo} alt="logo" />
               </div>
               <div className="form md-mb50">
-                <h4 className="fw-900 text-u ls1 mb-100 color-font">
+                <h4 className="fw-900 text-u ls1 mb-50 color-font">
                   Quanto você gasta em média na sua conta de luz?
                 </h4>
 
@@ -63,7 +63,6 @@ const PageCTA = () => {
                 >
                   {({ errors, touched, values }) => (
                     <Form id="contact-form">
-                      <div className="messages" ref={messageRef}></div>
                       <div className="controls mb-30">
                         <div className="form-group">
                           <CurrencyInput

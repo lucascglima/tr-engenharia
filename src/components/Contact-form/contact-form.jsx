@@ -113,7 +113,7 @@ const ContactForm = () => {
                   {ContactFromDate.title}
                 </h3>
                 <div className="item mb-40">
-                  <h5 className="fw-900 mb-10">EMAIL:</h5>
+                  <h5 className="fw-900 mb-10">E-MAIL:</h5>
                   <p>{ContactFromDate.email}</p>
                   <h5 className="fw-900 mb-10"> TELEFONE:</h5>
                   <p>{ContactFromDate.phone}</p>
