@@ -11,7 +11,7 @@ const MinimalArea = () => {
               <div className="img">
                 <img
                   className="thumparallax-down"
-                  src="/img/tr/quem-somos-min.jpg"
+                  src="/img/tr/time.png"
                   alt=""
                 />
               </div>
@@ -22,37 +22,38 @@ const MinimalArea = () => {
                   Quem somos
                 </h4>
                 <p className="wow fadeInUp ls1" data-wow-delay=".2s">
-                  Uma empresa que pensa no futuro. Com economia e
-                  responsabilidade, para atender melhor você e sua empresa.
-                  Estamos comprometidos em estabelecer novos padrões industriais
-                  e em fornecer energia limpa, de modo responsável.
+                  <strong className="fw-900 mb-10">
+                    {" "}
+                    Prontos para mudar o futuro, transformando o agora.{" "}
+                  </strong>
+                  Temos o objetivo de otimizar as soluções no ramo de energia
+                  solar, para os clientes que querem reduzir seus custos de
+                  energia elétrica convencional, de forma mais sustentável e
+                  inteligente.
                 </p>
                 <ul className="feat pl-0">
                   <li className="wow fadeInUp" data-wow-delay=".2s">
                     <h5 className="fw-900 mb-10">Missão</h5>
-                    <p className="pl-0">
-                      Verticalizar soluções para todas as etapas de
-                      desenvolvimento de projetos de energia. Assim teremos
-                      soluções mais completas e integradas para a gestão e
-                      implementação com excelência e sustentabilidade.
+                    <p className="wow fadeInUp ls1 pl-0">
+                      Nosso propósito é ajudar nossos clientes a reduzirem seus
+                      gastos através da energia solar, de forma simples,
+                      acessível, segura e sustentável.
                     </p>
                   </li>
                   <li className="wow fadeInUp" data-wow-delay=".4s">
                     <h5 className="fw-900 mb-10">Visão</h5>
-                    <p className="pl-0">
-                      Fornecemos uma solução completa dentro do cenário de
-                      energia para investidores, fornecedores de equipamentos e
-                      empresas do setor energético, desde o projeto até a
-                      implementação.
+                    <p className="wow fadeInUp ls1 pl-0">
+                      Ser referência na Ramo de Energia solar, oferecendo
+                      economia e eficiência energética para todos os clientes e
+                      consumidores.
                     </p>
                   </li>
                   <li className="wow fadeInUp" data-wow-delay=".6s">
                     <h5 className="fw-900 mb-10">Valores</h5>
-                    <p className="pl-0">
-                      Promovemos os melhores recursos para compor soluções
-                      tecnológicas com responsabilidade e compromisso com o meio
-                      ambiente. Mantemos sempre como princípios o
-                      profissionalismo e a ética.
+                    <p className="wow fadeInUp ls1 pl-0">
+                      Lideranças motivadoras, entregar valor para nossos cliente
+                      com excelência, Confiabilidade, Trabalho em equipe ,
+                      Comprometimento com o meio ambiente
                     </p>
                   </li>
                 </ul>

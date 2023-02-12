@@ -47,14 +47,14 @@ const Team2 = () => {
                       <use xlinkHref="#circlePath1" fill="none" />
                       <text fill="#fff">
                         <textPath xlinkHref="#circlePath1">
-                          CEO Manager CEO Manager CEO Manager
+                          Diretor executivo Diretor executivo Diretor executivo{" "}
                         </textPath>
                       </text>
                     </g>
                   </svg>
                 </div>
                 <div className="info">
-                  <h6>Rodrigo Lima</h6>
+                  <h6> Tiago Lima</h6>
                   <span className="white-text">Engenheiro Civil</span>
                 </div>
               </div>
@@ -87,7 +87,7 @@ const Team2 = () => {
                       <use xlinkHref="#circlePath2" fill="none" />
                       <text fill="#fff">
                         <textPath xlinkHref="#circlePath2">
-                          Engenheiro de civil - CEO
+                          Diretor executivo Diretor executivo Diretor executivo{" "}
                         </textPath>
                       </text>
                     </g>
@@ -127,16 +127,16 @@ const Team2 = () => {
                       <use xlinkHref="#circlePath3" fill="none" />
                       <text fill="#fff">
                         <textPath xlinkHref="#circlePath3">
-                          Landscape Designer Landscape Designer Landscape
-                          Designer
+                          Engenheiro Eletricista Engenheiro Eletricista
+                          Engenheiro Eletricista{" "}
                         </textPath>
                       </text>
                     </g>
                   </svg>
                 </div>
                 <div className="info">
-                  <h6>Rodrigo Lima</h6>
-                  <span>Engenheiro Civil</span>
+                  <h6>Murilo Almeida </h6>
+                  <span>Engenheiro Eletricista</span>
                 </div>
               </div>
             </div>

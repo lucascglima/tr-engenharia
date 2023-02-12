@@ -13,19 +13,19 @@ const PageCTA = () => {
   const number = Number(useStorage().getItem("accountValue")).toFixed(2);
   const economyPerYear = new Intl.NumberFormat("pt-BR", {
     minimumFractionDigits: 2,
-  }).format(Number(useStorage().getItem("accountValue") * 0.2 * 12));
+  }).format(Number(useStorage().getItem("accountValue") * 0.25 * 12));
 
   const co2 = new Intl.NumberFormat("pt-BR").format(
-    Number(useStorage().getItem("accountValue") * 0.8)
+    Number(useStorage().getItem("accountValue") * 1.38)
   );
   const trees = new Intl.NumberFormat("pt-BR").format(
-    Number(useStorage().getItem("accountValue") * 0.2).toFixed(0)
+    Number(useStorage().getItem("accountValue") / 200).toFixed(0)
   );
   const car = new Intl.NumberFormat("pt-BR").format(
-    Number(Number(useStorage().getItem("accountValue") * 0.8) * 0.49).toFixed(0)
+    Number(Number(useStorage().getItem("accountValue") * 0.8) / 0.49).toFixed(0)
   );
   const beef = new Intl.NumberFormat("pt-BR").format(
-    Number(Number(useStorage().getItem("accountValue") * 0.8) * 27).toFixed(0)
+    Number(Number(useStorage().getItem("accountValue") * 0.8) * 25).toFixed(0)
   );
 
   return (
