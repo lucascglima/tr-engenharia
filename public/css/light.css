@@ -7989,7 +7989,7 @@ body {
   padding: 15px;
   min-height: 140px;
   border: 1px solid rgba(0, 0, 0, 0.3);
-  margin-top: 30px;
+  /* margin-top: 30px; */
 }
 
 .contact .cont-info h3:not(.color-font) {

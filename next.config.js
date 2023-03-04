@@ -15,4 +15,8 @@ module.exports = {
   experimental: {
     forceSwcTransforms: false,
   },
+  // env: {
+  //   user: process.env.USER,
+  //   code: process.env.CODE,
+  // },
 };
