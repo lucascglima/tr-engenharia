@@ -8,6 +8,7 @@ import "../styles/main.scss";
 import "../styles/form-reduction.scss";
 
 function MyApp({ Component, pageProps }) {
+  React.useLayoutEffect = React.useEffect;
   return (
     <>
       <Head>
@@ -19,6 +20,7 @@ function MyApp({ Component, pageProps }) {
       <Analytics />
       <ScrollToTop />
       <Script id="wow" src="/js/wow.min.js"></Script>
+      <Script id="lazysizes" src="/js/lazysizes.min" async></Script>
       <Script
         strategy="beforeInteractive"
         id="splitting"
