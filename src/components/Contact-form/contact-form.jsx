@@ -2,8 +2,11 @@ import React from "react";
 import ContactFromDate from "../../data/sections/form-info.json";
 import { Formik, Form, Field } from "formik";
 import { Element } from "react-scroll";
+import { useState } from "react";
+import InputMask from "react-input-mask";
 const ContactForm = () => {
   const messageRef = React.useRef(null);
+  const phoneRef = React.useRef(null);
   function validateEmail(value) {
     let error;
     if (!value) {
@@ -13,7 +16,50 @@ const ContactForm = () => {
     }
     return error;
   }
-  const sendMessage = (ms) => new Promise((r) => setTimeout(r, ms));
+  // const sendMessage = (info) => new Promise((req, resp) => {
+  //   setName(info.name)
+  //   setEmail(info.email)
+  //   setMessage(info.message)
+  //   handleSubmit(
+  // });
+
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phoneNumber, setPhoneNumber] = useState("");
+  const [subject, setSubject] = useState("");
+  const [message, setMessage] = useState("");
+  const [submitted, setSubmitted] = useState(false);
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log("Sending");
+
+    let data = {
+      name,
+      email,
+      phoneNumber,
+      subject,
+      message,
+    };
+
+    fetch("/api/contact", {
+      method: "POST",
+      headers: {
+        Accept: "application/json, text/plain, */*",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(data),
+    }).then((res) => {
+      console.log("Response received");
+      if (res.status === 200) {
+        console.log("Response succeeded!");
+        setSubmitted(true);
+        setName("");
+        setEmail("");
+        setMessage("");
+      }
+    });
+  };
   return (
     <Element name="footer">
       <section className="contact section-padding">
@@ -28,34 +74,43 @@ const ContactForm = () => {
                   initialValues={{
                     name: "",
                     email: "",
+                    phoneNumber: "",
                     subject: "",
                     message: "",
                   }}
                   onSubmit={async (values) => {
-                    await sendMessage(500);
-                    alert(JSON.stringify(values, null, 2));
-                    // show message
-
-                    messageRef.current.innerText = `Sua mensagem foi enviada com sucesso.
-                    Nós entraremos em contato com você em breve.`;
-                    messageRef.current.className = "messages";
-
-                    // Reset the values
-
-                    values.name = "";
-                    values.email = "";
-                    values.subject = "";
-                    values.message = "";
-                    // clear message
-                    setTimeout(() => {
-                      messageRef.current.className = "hidden";
-                      messageRef.current.innerText == null;
-                    }, 5000);
+                    values.phoneNumber = phoneNumber;
+                    await fetch("/api/contact/", {
+                      method: "POST",
+                      headers: {
+                        Accept: "application/json, text/plain, */*",
+                        "Content-Type": "application/json",
+                      },
+                      body: JSON.stringify(values, phoneNumber),
+                    }).then((res) => {
+                      if (res.status === 200) {
+                        // show message
+                        messageRef.current.innerText = `Sua mensagem foi enviada com sucesso.
+                      Nós entraremos em contato com você em breve.`;
+                        messageRef.current.className = "messages";
+                        // Reset the values
+                        values.name = "";
+                        values.email = "";
+                        values.phoneNumber = "";
+                        setPhoneNumber("");
+                        values.subject = "";
+                        values.message = "";
+                        // clear message
+                        setTimeout(() => {
+                          messageRef.current.className = "hidden";
+                          messageRef.current.innerText == null;
+                        }, 10000);
+                      }
+                    });
                   }}
                 >
                   {({ errors, touched }) => (
                     <Form id="contact-form">
-                      <div className="" ref={messageRef}></div>
                       <div className="controls">
                         <div className="form-group">
                           <Field
@@ -73,10 +128,46 @@ const ContactForm = () => {
                             type="email"
                             name="email"
                             placeholder="Email"
+                            required="required"
                           />
                           {errors.email && touched.email && (
                             <div>{errors.email}</div>
                           )}
+                        </div>
+                        <div className="form-group">
+                          {/* <Field
+                            id="form_phoneNumber"
+                            type="tel"
+                            name="phoneNumber"
+                            placeholder="Telefone (Whatsapp)"
+                            required="required"
+                            mask="(99) 99999-9999"
+                          /> */}
+                          <InputMask
+                            id="form_phoneNumber"
+                            type="tel"
+                            name="phoneNumber"
+                            required="required"
+                            maskPlaceholder={null}
+                            mask="(99) 99999-9999"
+                            placeholder="Telefone (Whatsapp)"
+                            value={phoneNumber}
+                            onChange={(value) => {
+                              setPhoneNumber(value.target.value);
+                              setTimeout(() => {
+                                if (phoneNumber.length != 15) {
+                                  phoneRef.current.innerText =
+                                    "Telefone inválido";
+                                } else {
+                                  phoneRef.current.innerText = null;
+                                  phoneRef.current.className = "";
+                                }
+                              }, 100);
+                            }}
+                          />
+                          <div>
+                            <div className="" ref={phoneRef}></div>
+                          </div>
                         </div>
                         <div className="form-group">
                           <Field
@@ -84,6 +175,7 @@ const ContactForm = () => {
                             type="text"
                             name="subject"
                             placeholder="Assunto"
+                            required="required"
                           />
                         </div>
                       </div>
@@ -97,6 +189,7 @@ const ContactForm = () => {
                           required="required"
                         />
                       </div>
+                      <div className="" ref={messageRef}></div>
 
                       <button type="submit" className="butn btn-cta">
                         <span>Enviar mensagem</span>

@@ -33,11 +33,11 @@ const PageCTA = () => {
                 <img src={data.logo} alt="logo" />
               </div>
               <h5 className="fw-600 mb-25  text-white">
-                Pedido de energia limpa feita com sucesso!
+                Pedido de energia limpa feito com sucesso!
               </h5>
               <div className="fw-500 mb-25  text-white">
                 Estamos analisando seus dados e a resposta do seu pedido chega
-                por WhatsApp e e-mail.
+                na sua caixa de e-mail.
               </div>
               <div className="text-white fw-600 mb-10">
                 Confira as suas informações:
