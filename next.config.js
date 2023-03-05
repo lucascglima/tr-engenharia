@@ -19,5 +19,5 @@ module.exports = {
     user: process.env.NEXT_PUBLIC_USER,
     code: process.env.NEXT_PUBLIC_CODE,
   },
-  pageExtensions: ["js", "jsx"],
+  pageExtensions: ["contact.js"],
 };
