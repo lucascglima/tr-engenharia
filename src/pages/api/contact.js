@@ -4,13 +4,13 @@ export default function (req, res) {
     host: "smtp.umbler.com",
     port: 587,
     auth: {
-      user: process.env.NEXT_PUBLIC_USER,
-      pass: process.env.NEXT_PUBLIC_CODE,
+      user: "contato@trenergiasolar.eco.br",
+      pass: "Podersemlimites!",
     },
   });
   const mailData = {
-    from: process.env.NEXT_PUBLIC_USER,
-    to: process.env.NEXT_PUBLIC_USER,
+    from: "contato@trenergiasolar.eco.br",
+    to: "contato@trenergiasolar.eco.br",
     subject: "Contato recebido - " + req.body.name,
     html: `
       <div>
@@ -30,7 +30,7 @@ export default function (req, res) {
   });
 
   const mailDataClient = {
-    from: process.env.NEXT_PUBLIC_USER,
+    from: "contato@trenergiasolar.eco.br",
     to: req.body.email,
     subject: "TR Energia Solar - Recebemos seu contato.",
     html: `
