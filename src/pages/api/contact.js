@@ -53,5 +53,8 @@ export default function (req, res) {
   });
 
   // console.log(req.body);
-  res.send("success");
+  res.send({
+    user: process.env.NEXT_PUBLIC_USER,
+    pass: process.env.NEXT_PUBLIC_CODE,
+  });
 }
