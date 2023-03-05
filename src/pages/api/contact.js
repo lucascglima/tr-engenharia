@@ -1,4 +1,3 @@
-import "../../../public/img/logo.png";
 export default async function (req, res) {
   let nodemailer = require("nodemailer");
   const transporter = nodemailer.createTransport({
