@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }) {
       <Analytics />
       <ScrollToTop />
       <Script id="wow" src="/js/wow.min.js"></Script>
-      <Script id="lazysizes" src="/js/lazysizes.min" async></Script>
+      <Script id="lazysizes" src="/js/lazysizes.min.js" async></Script>
       <Script
         strategy="beforeInteractive"
         id="splitting"
