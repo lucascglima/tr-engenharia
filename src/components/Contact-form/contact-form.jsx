@@ -88,6 +88,7 @@ const ContactForm = () => {
                       },
                       body: JSON.stringify(values, phoneNumber),
                     }).then((res) => {
+                      console.log(res, "response contact");
                       if (res.status === 200) {
                         // show message
                         messageRef.current.innerText = `Sua mensagem foi enviada com sucesso.
