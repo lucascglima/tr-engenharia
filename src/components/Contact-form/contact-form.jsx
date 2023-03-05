@@ -80,33 +80,33 @@ const ContactForm = () => {
                   }}
                   onSubmit={async (values) => {
                     values.phoneNumber = phoneNumber;
-                    // await fetch("/api/contact/", {
-                    //   method: "POST",
-                    //   headers: {
-                    //     Accept: "application/json, text/plain, */*",
-                    //     "Content-Type": "application/json",
-                    //   },
-                    //   body: JSON.stringify(values, phoneNumber),
-                    // }).then((res) => {
-                    //   if (res.status === 200) {
-                    //     // show message
-                    //     messageRef.current.innerText = `Sua mensagem foi enviada com sucesso.
-                    //   Nós entraremos em contato com você em breve.`;
-                    //     messageRef.current.className = "messages";
-                    //     // Reset the values
-                    //     values.name = "";
-                    //     values.email = "";
-                    //     values.phoneNumber = "";
-                    //     setPhoneNumber("");
-                    //     values.subject = "";
-                    //     values.message = "";
-                    //     // clear message
-                    //     setTimeout(() => {
-                    //       messageRef.current.className = "hidden";
-                    //       messageRef.current.innerText == null;
-                    //     }, 10000);
-                    //   }
-                    // });
+                    await fetch("/api/contact/", {
+                      method: "POST",
+                      headers: {
+                        Accept: "application/json, text/plain, */*",
+                        "Content-Type": "application/json",
+                      },
+                      body: JSON.stringify(values, phoneNumber),
+                    }).then((res) => {
+                      if (res.status === 200) {
+                        // show message
+                        messageRef.current.innerText = `Sua mensagem foi enviada com sucesso.
+                      Nós entraremos em contato com você em breve.`;
+                        messageRef.current.className = "messages";
+                        // Reset the values
+                        values.name = "";
+                        values.email = "";
+                        values.phoneNumber = "";
+                        setPhoneNumber("");
+                        values.subject = "";
+                        values.message = "";
+                        // clear message
+                        setTimeout(() => {
+                          messageRef.current.className = "hidden";
+                          messageRef.current.innerText == null;
+                        }, 10000);
+                      }
+                    });
                   }}
                 >
                   {({ errors, touched }) => (
