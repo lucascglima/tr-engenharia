@@ -15,8 +15,9 @@ module.exports = {
   experimental: {
     forceSwcTransforms: false,
   },
-  // env: {
-  //   user: process.env.USER,
-  //   code: process.env.CODE,
-  // },
+  env: {
+    user: process.env.NEXT_PUBLIC_USER,
+    code: process.env.NEXT_PUBLIC_CODE,
+  },
+  pageExtensions: ["page.tsx", "page.ts", "page.jsx", "page.js"],
 };

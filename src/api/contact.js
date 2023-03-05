@@ -20,7 +20,8 @@ export default function (req, res) {
       Nome: <strong>${req.body.name}</strong> <br/>
       E-mail: <strong>${req.body.email}</strong> <br/>
       Telefone (Whatsapp): <strong>${req.body.phoneNumber}</strong> <br/>
-      Assunto: <strong>${req.body.subject}</strong> <br/><br/>      Mensagem:<br/>
+      Assunto: <strong>${req.body.subject}</strong> <br/><br/>
+      Mensagem:<br/>
         ${req.body.message}
       </p>
       </div>`,
