@@ -13,7 +13,8 @@ const PageCTA = () => {
   const number = Number(useStorage().getItem("accountValue")).toFixed(2);
   const economyPerYear = new Intl.NumberFormat("pt-BR", {
     minimumFractionDigits: 2,
-  }).format(Number(useStorage().getItem("accountValue") * 0.25 * 12));
+  }).format(Number(useStorage().getItem("accountValue") * 0.2 * 12));
+  useStorage().setItem("economyPerYear", economyPerYear);
 
   const co2 = new Intl.NumberFormat("pt-BR").format(
     Number(useStorage().getItem("accountValue") * 1.38)

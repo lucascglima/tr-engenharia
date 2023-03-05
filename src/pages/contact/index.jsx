@@ -29,8 +29,6 @@ const PageCTA = () => {
     return error;
   }
 
-  const sendMessage = (ms) => new Promise((r) => setTimeout(r, ms));
-
   return (
     <LightTheme>
       <div className="progress-bar-contact"></div>
@@ -54,6 +52,7 @@ const PageCTA = () => {
                     company: "",
                     privacy: false,
                     accountValue: 0,
+                    economyPerYear: 0,
                   }}
                   onSubmit={async (values) => {
                     if (values.phoneNumber.length != 15) {
@@ -61,10 +60,13 @@ const PageCTA = () => {
                         "Telefone para contato inválido !";
                       return;
                     } else {
-                      await sendMessage(500);
                       values.accountValue = new Intl.NumberFormat(
                         "pt-BR"
-                      ).format(parseFloat(useStorage().getItem("accontValue")));
+                      ).format(
+                        parseFloat(useStorage().getItem("accountValue"))
+                      );
+                      values.economyPerYear =
+                        useStorage().getItem("economyPerYear");
                       useStorage().setItem("contact", values);
                       useStorage().setItem("name", values.name);
                       useStorage().setItem("email", values.email);
@@ -76,8 +78,26 @@ const PageCTA = () => {
                         JSON.stringify(values.accountValue)
                       );
 
-                      // clear message
-                      messageRef.current.innerText = null;
+                      await fetch("/api/economy/", {
+                        method: "POST",
+                        headers: {
+                          Accept: "application/json, text/plain, */*",
+                          "Content-Type": "application/json",
+                        },
+                        body: JSON.stringify(values),
+                      }).then((res) => {
+                        console.log(res, "response economy");
+                        if (res.status === 200) {
+                          // Reset the values
+                          values.name = "";
+                          values.email = "";
+                          values.phoneNumber = "";
+                          values.company = "";
+                          values.privacy = false;
+                          values.message = "";
+                          values.accountValue = 0;
+                        }
+                      });
                       router.push({
                         pathname: "/resume",
                       });

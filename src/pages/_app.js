@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>TR Engenharia</title>
+        <title>TR Energia solar</title>
         <link rel="icon" href="/img/tr/favicon.ico" />
       </Head>
       <LoadingScreen />
