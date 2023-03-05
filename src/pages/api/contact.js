@@ -1,4 +1,4 @@
-export default function (req, res) {
+export default async function (req, res) {
   let nodemailer = require("nodemailer");
   const transporter = nodemailer.createTransport({
     host: "smtp.umbler.com",
@@ -8,6 +8,7 @@ export default function (req, res) {
       pass: process.env.NEXT_PUBLIC_CODE,
     },
   });
+
   const mailData = {
     from: process.env.NEXT_PUBLIC_USER,
     to: process.env.NEXT_PUBLIC_USER,
@@ -23,11 +24,8 @@ export default function (req, res) {
       </p>
       </div>`,
   };
-
-  transporter.sendMail(mailData, function (err, info) {
-    if (err) console.log(err);
-    // else console.log(info);
-  });
+  let info = await transporter.sendMail(mailData);
+  console.log(info, "TO TR");
 
   const mailDataClient = {
     from: process.env.NEXT_PUBLIC_USER,
@@ -47,11 +45,8 @@ export default function (req, res) {
       </div>`,
   };
 
-  transporter.sendMail(mailDataClient, function (err, info) {
-    if (err) console.log(err);
-    // else console.log(info);
-  });
+  let infoClient = await transporter.sendMail(mailDataClient);
+  console.log(infoClient, "TO CLIENT");
 
-  // console.log(req.body);
-  res.send("success");
+  res.send({ toTR: info, toClient: infoClient });
 }
