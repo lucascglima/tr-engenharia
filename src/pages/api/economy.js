@@ -91,7 +91,7 @@ export default async function (req, res) {
   <body>
     <div class="email-container">
         <div class="email-header">
-            <img src="https://www.trenergiasolar.eco.br/img/tr/logo-min.svg" alt="Solar Energy Company Logo">
+            <img src="https://www.trenergiasolar.eco.br/img/tr/logo.png" alt="TR Energia solar">
             <h1 class="email-heading">Recebemos um contato pelo site</h1>
         </div>
         <div class="email-message">
@@ -206,7 +206,7 @@ export default async function (req, res) {
   <body>
     <div class="email-container">
         <div class="email-header">
-            <img src="https://www.trenergiasolar.eco.br/img/tr/logo-min.svg" alt="Solar Energy Company Logo">
+            <img src="https://www.trenergiasolar.eco.br/img/tr/logo.png" alt="Solar Energy Company Logo">
             <h1 class="email-heading">Solicitação de economia, realizadacom sucesso!</h1>
         </div>
         <div class="email-message">
