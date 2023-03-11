@@ -111,7 +111,6 @@ export default async function (req, res) {
   </html>`,
   };
   let info = await transporter.sendMail(mailData);
-  console.log(info, "TO TR");
 
   const mailDataClient = {
     from: process.env.NEXT_PUBLIC_USER,
@@ -212,7 +211,6 @@ export default async function (req, res) {
   };
 
   let infoClient = await transporter.sendMail(mailDataClient);
-  console.log(infoClient, "TO CLIENT");
 
   res.send({ toTR: info, toClient: infoClient });
 }

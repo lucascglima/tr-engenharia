@@ -37,41 +37,41 @@ const PageCTA = () => {
           <div className="row justify-center text-center">
             <div className="col-lg-6">
               <div className="text-right text-gold">2/4</div>
-              <div className="logo-economy mb-50">
+              <div className="logo-economy mb-40">
                 <img src={data.logo} alt="logo" />
               </div>{" "}
-              <h5 className="fw-900 text-u  mb-40  text-white ">
+              <h5 className="fw-900 text-u  mb-30  text-white ">
                 Ao receber energia solar, você economiza:{" "}
               </h5>
-              <h2 className="fw-900 text-u  mb-20  text-gold">
+              <h2 className="fw-900 text-u  mb-10  text-gold">
                 R$ {economyPerYear}
               </h2>
-              <span className="text-white mb-40">em média por ano</span>
-              <h5 className="fw-900 text-u  mb-40  text-white ">
+              <span className="text-white mb-30">em média por ano</span>
+              <h5 className="fw-900 text-u  mb-30  text-white ">
                 e protege o meio ambiente ao deixar de emitir:
               </h5>
-              <h2 className="fw-900 text-u  mb-20  text-gold">
+              <h2 className="fw-900 text-u  mb-10  text-gold">
                 {co2} kg de CO²
               </h2>
-              <span className="text-white mb-40">
+              <span className="text-white mb-30">
                 essa quantidade equivale a:
               </span>
               <div className="economy-result ">
                 <div>
                   <img src={data.trees} alt="trees" />
-                  <span className="text-white mt-40">
+                  <span className="text-white mt-30">
                     Plantar <span>{trees}</span> árvores
                   </span>
                 </div>
                 <div>
                   <img src={data.car} alt="car" />
-                  <span className="text-white mt-40">
+                  <span className="text-white mt-30">
                     Não rodar <span>{car}</span>km em um carro
                   </span>
                 </div>
                 <div>
                   <img src={data.cow} alt="cow" />
-                  <span className="text-white mt-40">
+                  <span className="text-white mt-30">
                     Não comer <span>{beef} </span>kg de carne
                   </span>
                 </div>

@@ -30,7 +30,7 @@ const Numbers2 = () => {
                   <span className="icon pe-7s-sun"></span>
                   <h4 className="fw-900 text-u ls1 mb-30 color-font text-center">
                     &nbsp;
-                    <CountUp redraw={true} end={70} duration="3">
+                    <CountUp redraw={true} end={70} duration="1.5">
                       {({ countUpRef, start }) => (
                         <VisibilitySensor onChange={start} delayedCall>
                           <span className="count" ref={countUpRef} />
@@ -50,7 +50,7 @@ const Numbers2 = () => {
                   <span className="icon pe-7s-cash"></span>
                   <h4 className="fw-900 text-u ls1 mb-30 color-font">
                     &nbsp; R${" "}
-                    <CountUp redraw={true} end={19} duration="3">
+                    <CountUp redraw={true} end={19} duration="1.5">
                       {({ countUpRef, start }) => (
                         <VisibilitySensor onChange={start} delayedCall>
                           <span className="count" ref={countUpRef} />
@@ -71,7 +71,7 @@ const Numbers2 = () => {
                   <span className="icon pe-7s-gleam"></span>
                   <h4 className="fw-900 text-u ls1 mb-30 color-font">
                     &nbsp;
-                    <CountUp redraw={true} end={2715} duration="3">
+                    <CountUp redraw={true} end={2715} duration="1.5">
                       {({ countUpRef, start }) => (
                         <VisibilitySensor onChange={start} delayedCall>
                           <span className="count" ref={countUpRef} />
@@ -91,7 +91,7 @@ const Numbers2 = () => {
                   <span className="icon pe-7s-leaf"></span>
                   <h4 className="fw-900 text-u ls1 mb-30 color-font">
                     &nbsp; -
-                    <CountUp redraw={true} end={138} duration="3">
+                    <CountUp redraw={true} end={138} duration="1.5">
                       {({ countUpRef, start }) => (
                         <VisibilitySensor onChange={start} delayedCall>
                           <span className="count" ref={countUpRef} />

@@ -13,12 +13,14 @@ import Team2 from "../../components/Team2/team2";
 import ContactForm from "../../components/Contact-form/contact-form";
 
 const Homepage1 = () => {
-  const fixedSlider = React.useRef(null);
+  const fixedSlider = React.useRef(
+    "../../../public/img/tr/bg-img-desktop-min.webp"
+  );
   const MainContent = React.useRef(null);
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
 
-  React.useEffect(() => {
+  React.useLayoutEffect(() => {
     setInterval(() => {
       if (fixedSlider.current) {
         var slidHeight = fixedSlider.current.offsetHeight;
@@ -47,6 +49,7 @@ const Homepage1 = () => {
   return (
     <LightTheme>
       <Navbar nr={navbarRef} lr={logoRef} />
+
       <IntroWithSlider sliderRef={fixedSlider} />
       <div ref={MainContent} className="main-content ">
         <AboutUs />

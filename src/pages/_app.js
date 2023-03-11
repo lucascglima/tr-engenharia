@@ -19,8 +19,11 @@ function MyApp({ Component, pageProps }) {
       <Component {...pageProps} />
       <Analytics />
       <ScrollToTop />
-      <Script id="wow" src="/js/wow.min.js"></Script>
-      <Script id="lazysizes" src="/js/lazysizes.min.js" async></Script>
+      <Script
+        id="wow"
+        src="/js/wow.min.js"
+        strategy="beforeInteractive"
+      ></Script>
       <Script
         strategy="beforeInteractive"
         id="splitting"
@@ -32,6 +35,7 @@ function MyApp({ Component, pageProps }) {
         strategy="beforeInteractive"
         src="/js/isotope.pkgd.min.js"
       ></Script>
+
       <Script id="wowInit" strategy="lazyOnload">{`new wow().init();`}</Script>
     </>
   );

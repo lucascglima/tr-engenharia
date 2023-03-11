@@ -7,13 +7,9 @@ const MinimalArea = () => {
       <section className="min-area white-bg">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6 wow fadeInUp" data-wow-delay=".5s">
               <div className="img">
-                <img
-                  className="thumparallax-down"
-                  src="/img/tr/time.png"
-                  alt=""
-                />
+                <img src="/img/tr/time.webp" className="" alt="" />
               </div>
             </div>
             <div className="col-lg-6 valign">
@@ -21,10 +17,10 @@ const MinimalArea = () => {
                 <h4 className="fw-900 text-u ls1 mb-30 color-font">
                   Quem somos
                 </h4>
-                <p className="wow fadeInUp ls1" data-wow-delay=".2s">
-                  <strong className="fw-900 mb-10">
-                    {" "}
-                    Prontos para mudar o futuro, transformando o agora.{" "}
+                <p className="wow fadeInUp ls1" data-wow-delay=".5s">
+                  <strong>
+                    Prontos para mudar o futuro, transformando o agora.
+                    <br />
                   </strong>
                   Temos o objetivo de otimizar as soluções no ramo de energia
                   solar, para os clientes que querem reduzir seus custos de
