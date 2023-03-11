@@ -27,7 +27,7 @@ const AboutUs = () => {
                 </Link>
               </div>
             </div>
-            <div className="img img-benefits">
+            <div className="img img-benefits wow fadeInUp" data-wow-delay=".5s">
               <img src={AboutUs1Date.image} alt="" />
             </div>
           </div>
