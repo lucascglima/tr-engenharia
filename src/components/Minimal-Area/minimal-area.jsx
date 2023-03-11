@@ -9,11 +9,7 @@ const MinimalArea = () => {
           <div className="row">
             <div className="col-lg-6">
               <div className="img">
-                <img
-                  className="thumparallax-down"
-                  src="/img/tr/time.png"
-                  alt=""
-                />
+                <img src="/img/tr/time.webp" alt="" />
               </div>
             </div>
             <div className="col-lg-6 valign">

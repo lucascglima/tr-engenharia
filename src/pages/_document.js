@@ -16,7 +16,6 @@ class MyDocument extends Document {
           <meta name="keywords" content="TR Energia Solar" />
           <meta name="description" content="TR Energia Solar" />
           <meta name="author" content="Lucas Lima" />
-          <link rel="shortcut icon" href="/img/favicon.ico" />
           <link
             href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
             rel="stylesheet"
