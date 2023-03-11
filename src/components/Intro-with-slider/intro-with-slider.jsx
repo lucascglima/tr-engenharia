@@ -50,7 +50,10 @@ const IntroWithSlider = ({ sliderRef }) => {
                   <div className="row justify-content-center">
                     <div className="col-lg-8 col-md-10">
                       <div className="caption center mt-30">
-                        <h1 className="white-font">{slide.title}</h1>
+                        <h1 className="white-font">
+                          Sua solução Econômica, <br /> Renovável e <br />
+                          Sustentável.
+                        </h1>
                         {slide?.content && (
                           <p className="wow fadeInUp ls1">{slide.content}</p>
                         )}
