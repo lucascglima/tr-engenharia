@@ -47,7 +47,7 @@ const IntroWithSlider = ({ sliderRef }) => {
                 style={{ backgroundImage: `url(${slide.image})` }}
               >
                 <div className="container">
-                  <div className="row justify-content-center mb-90">
+                  <div className="row justify-content-center">
                     <div className="col-lg-8 col-md-10">
                       <div className="caption center mt-30">
                         <h1 className="white-font">{slide.title}</h1>
