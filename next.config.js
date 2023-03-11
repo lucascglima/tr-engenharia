@@ -1,4 +1,5 @@
 const path = require("path");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
   reactStrictMode: true,
@@ -16,30 +17,29 @@ module.exports = {
     user: process.env.NEXT_PUBLIC_USER,
     code: process.env.NEXT_PUBLIC_CODE,
   },
+  optimization: {
+    splitChunks: {
+      cacheGroups: {
+        styles: {
+          name: "styles",
+          type: "css/mini-extract",
+          chunks: "all",
+          enforce: true,
+        },
+      },
+    },
+  },
   plugins: [
-    "postcss-flexbugs-fixes",
-    [
-      "postcss-preset-env",
-      {
-        autoprefixer: {
-          flexbox: "no-2009",
-        },
-        stage: 3,
-        features: {
-          "custom-properties": false,
-        },
-      },
-    ],
-    [
-      "@fullhuman/postcss-purgecss",
-      {
-        content: [
-          "./pages/**/*.{js,jsx,ts,tsx}",
-          "./components/**/*.{js,jsx,ts,tsx}",
-        ],
-        defaultExtractor: (content) => content.match(/[\w-/:]+(?<!:)/g) || [],
-        safelist: ["html", "body"],
-      },
-    ],
+    new MiniCssExtractPlugin({
+      filename: "light.css",
+    }),
   ],
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: [MiniCssExtractPlugin.loader, "css-loader"],
+      },
+    ],
+  },
 };
