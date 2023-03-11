@@ -211,11 +211,6 @@ const ContactForm = () => {
                   <p>{ContactFromDate.email}</p>
                   <h5 className="fw-900 mb-10"> TELEFONE:</h5>
                   <p>{ContactFromDate.phone}</p>
-                </div>
-                <h3 className="wow" data-wow-delay=".5s" data-splitting>
-                  Visite nosso escritório
-                </h3>
-                <div className="item">
                   <h5 className="fw-900 mb-10">ENDEREÇO:</h5>
                   <p>
                     {ContactFromDate.location.first}
@@ -223,6 +218,12 @@ const ContactForm = () => {
                     {ContactFromDate.location.second}
                   </p>
                 </div>
+                {/* <h3 className="wow" data-wow-delay=".5s" data-splitting>
+                  Visite nosso escritório
+                </h3> */}
+                {/* <div className="item">
+                
+                </div> */}
 
                 <div className="social mt-50">
                   <h5 className="fw-900 mb-10">Acompanhe nossas redes</h5>
@@ -239,7 +240,7 @@ const ContactForm = () => {
                     <i className="fab fa-facebook"></i>
                   </a>
                 </div>
-                <div className="item mt-50">
+                <div className="item mt-20">
                   <h6>{ContactFromDate.location.third}</h6>
                 </div>
               </div>

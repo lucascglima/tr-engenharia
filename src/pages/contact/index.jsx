@@ -86,7 +86,7 @@ const PageCTA = () => {
                         },
                         body: JSON.stringify(values),
                       }).then((res) => {
-                        console.log(res, "response economy");
+                        // console.log(res, "response economy");
                         if (res.status === 200) {
                           // Reset the values
                           values.name = "";

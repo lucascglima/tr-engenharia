@@ -22,9 +22,9 @@ const MinimalArea = () => {
                   Quem somos
                 </h4>
                 <p className="wow fadeInUp ls1" data-wow-delay=".2s">
-                  <strong className="fw-900 mb-10">
-                    {" "}
-                    Prontos para mudar o futuro, transformando o agora.{" "}
+                  <strong>
+                    Prontos para mudar o futuro, transformando o agora.
+                    <br />
                   </strong>
                   Temos o objetivo de otimizar as soluções no ramo de energia
                   solar, para os clientes que querem reduzir seus custos de

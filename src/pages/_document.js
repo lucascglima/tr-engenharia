@@ -13,8 +13,8 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-          <meta name="keywords" content="TR Engenharia - Energia Solar" />
-          <meta name="description" content="TR Engenharia - Energia Solar" />
+          <meta name="keywords" content="TR Energia Solar" />
+          <meta name="description" content="TR Energia Solar" />
           <meta name="author" content="Lucas Lima" />
           <link rel="shortcut icon" href="/img/favicon.ico" />
           <link

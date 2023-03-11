@@ -1,50 +1,50 @@
 [
   {
     "id": 1,
-    "lightImage": "/img/tr/clients/arena-bv.png",
-    "darkImage": "/img/tr/clients/arena-bv.png",
+    "lightImage": "/img/tr/clients/arena-bv.webp",
+    "darkImage": "/img/tr/clients/arena-bv.webp",
     "url": "Arena Boa viagem"
   },
   {
     "id": 2,
-    "lightImage": "/img/tr/clients/beijupira.png",
-    "darkImage": "/img/tr/clients/beijupira.png",
+    "lightImage": "/img/tr/clients/beijupira.webp",
+    "darkImage": "/img/tr/clients/beijupira.webp",
     "url": "Restaurante Beijupirá"
   },
   {
     "id": 3,
-    "lightImage": "/img/tr/clients/sante.png",
-    "darkImage": "/img/tr/clients/sante.png",
+    "lightImage": "/img/tr/clients/sante.webp",
+    "darkImage": "/img/tr/clients/sante.webp",
     "url": "Santé Club Recife"
   },
   {
     "id": 4,
-    "lightImage": "/img/tr/clients/treno.png",
-    "darkImage": "/img/tr/clients/treno.png",
+    "lightImage": "/img/tr/clients/treno.webp",
+    "darkImage": "/img/tr/clients/treno.webp",
     "url": "Treno Fitness"
   },
   {
     "id": 5,
-    "lightImage": "/img/tr/clients/arcadia.png",
-    "darkImage": "/img/tr/clients/arcadia.png",
+    "lightImage": "/img/tr/clients/arcadia.webp",
+    "darkImage": "/img/tr/clients/arcadia.webp",
     "url": "Arcádia Recepções"
   },
   {
     "id": 6,
-    "lightImage": "/img/tr/clients/faaca.png",
-    "darkImage": "/img/tr/clients/faaca.png",
+    "lightImage": "/img/tr/clients/faaca.webp",
+    "darkImage": "/img/tr/clients/faaca.webp",
     "url": "Faaca boteco e parrilla"
   },
   {
     "id": 7,
-    "lightImage": "/img/tr/clients/oma.jpg",
-    "darkImage": "/img/tr/clients/oma.jpg",
+    "lightImage": "/img/tr/clients/oma.webp",
+    "darkImage": "/img/tr/clients/oma.webp",
     "url": "Oma pâtisserie bistrô"
   },
   {
     "id": 8,
-    "lightImage": "/img/tr/clients/bework.jpg",
-    "darkImage": "/img/tr/clients/bework.jpg",
+    "lightImage": "/img/tr/clients/bework.webp",
+    "darkImage": "/img/tr/clients/bework.webp",
     "url": "Be work escritórios"
   }
 ]

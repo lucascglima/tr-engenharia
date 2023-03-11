@@ -13,7 +13,7 @@ const Works = () => {
   const navigationPrevRef = React.useRef(null);
   const navigationNextRef = React.useRef(null);
   const [pageLoaded, setPageLoaded] = React.useState(false);
-  React.useEffect(() => {
+  React.useLayoutEffect(() => {
     setPageLoaded(true);
   }, [pageLoaded]);
   return (
