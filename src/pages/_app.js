@@ -12,7 +12,17 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>TR Energia solar</title>
+        <title>
+          TR Energia Solar - Energia solar e redução na conta de luz sem custos
+        </title>
+        <meta
+          name="description"
+          content="A TR Energia Solar oferece soluções em energia solar para redução na conta de luz. Entre em contato conosco para saber mais."
+        />
+        <meta
+          name="keywords"
+          content="TR Energia Solar, energia solar, redução na conta de luz, "
+        />
         <link rel="icon" href="/img/tr/favicon.ico" />
       </Head>
       <LoadingScreen />
