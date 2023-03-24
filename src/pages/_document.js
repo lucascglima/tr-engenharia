@@ -12,9 +12,6 @@ class MyDocument extends Document {
     return (
       <Html lang="pt">
         <Head>
-          <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-
-          <meta name="author" content="Lucas Lima" />
           <link
             href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
             rel="stylesheet"

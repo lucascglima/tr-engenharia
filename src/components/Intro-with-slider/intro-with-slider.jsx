@@ -25,7 +25,7 @@ const IntroWithSlider = ({ sliderRef }) => {
     >
       <div className="swiper-container parallax-slider">
         <Swiper
-          speed={1000}
+          speed={300}
           parallax={true}
           onSwiper={(swiper) => {
             setTimeout(() => {
