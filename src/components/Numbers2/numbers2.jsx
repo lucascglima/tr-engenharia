@@ -14,6 +14,9 @@ const Numbers2 = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8 col-md-10">
               <div className="sec-head  text-center">
+                <h6 className="fw-100 text-u ls2 mb-10 text-center">
+                  TR Energia Solar
+                </h6>
                 <h3
                   className="wow fw-900 text-u ls1  color-font"
                   data-wow-delay=".5s"

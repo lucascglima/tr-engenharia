@@ -13,15 +13,15 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>
-          TR Energia Solar - Energia solar e redução na conta de luz sem custos
+          TR Energia Solar - Energia solar e redução na conta de luz
         </title>
         <meta
-          name="description"
-          content="A TR Energia Solar oferece soluções em energia solar para redução na conta de luz. Entre em contato conosco para saber mais."
+          name="keywords"
+          content="energia Solar, redução conta de luz, pernambuco, recife"
         />
         <meta
-          name="keywords"
-          content="TR Energia Solar, energia solar, redução na conta de luz, "
+          name="description"
+          content="Soluções em energia solar para redução na conta de luz. Entre em contato conosco para saber mais."
         />
         <link rel="icon" href="/img/tr/favicon.ico" />
       </Head>
@@ -46,7 +46,7 @@ function MyApp({ Component, pageProps }) {
         src="/js/isotope.pkgd.min.js"
       ></Script>
 
-      <Script id="wowInit" strategy="lazyOnload">{`new wow().init();`}</Script>
+      {/* <Script id="wowInit" strategy="lazyOnload">{`new wow().init();`}</Script> */}
     </>
   );
 }

@@ -4932,8 +4932,8 @@ body {
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   transition: all 0.4s;
-  max-width: 75px;
-  margin: auto;
+  width: 100%;
+  margin: 6px;
 }
 
 .clients .brands .img .link {

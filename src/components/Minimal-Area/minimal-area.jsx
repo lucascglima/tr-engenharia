@@ -14,8 +14,9 @@ const MinimalArea = () => {
             </div>
             <div className="col-lg-6 valign">
               <div className="content pt-0">
+                <h6 className="fw-100 text-u ls2 mb-10 ">Quem somos</h6>
                 <h4 className="fw-900 text-u ls1 mb-30 color-font">
-                  Quem somos
+                  TR Energia Solar
                 </h4>
                 <p className="wow fadeInUp ls1" data-wow-delay=".5s">
                   <strong>
