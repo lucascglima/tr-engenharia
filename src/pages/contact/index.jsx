@@ -78,7 +78,7 @@ const PageCTA = () => {
                         JSON.stringify(values.accountValue)
                       );
 
-                      await fetch("/api/economy/", {
+                      await fetch("/api/economy", {
                         method: "POST",
                         headers: {
                           Accept: "application/json, text/plain, */*",

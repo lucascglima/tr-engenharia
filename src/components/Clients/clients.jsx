@@ -41,9 +41,9 @@ const Clients = ({ theme }) => {
                     >
                       <div className="img">
                         {theme === "light" ? (
-                          <img src={item.lightImage} alt="" />
+                          <img src={item.lightImage} alt="clientes" />
                         ) : (
-                          <img src={item.darkImage} alt="" />
+                          <img src={item.darkImage} alt="clientes" />
                         )}
                         <Split>
                           <a
@@ -91,9 +91,9 @@ const Clients = ({ theme }) => {
                     >
                       <div className="img">
                         {theme === "light" ? (
-                          <img src={item.lightImage} alt="" />
+                          <img src={item.lightImage} alt="clientes" />
                         ) : (
-                          <img src={item.darkImage} alt="" />
+                          <img src={item.darkImage} alt="clientes" />
                         )}
                         <Split>
                           <a

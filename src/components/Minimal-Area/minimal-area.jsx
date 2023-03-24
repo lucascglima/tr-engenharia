@@ -9,7 +9,11 @@ const MinimalArea = () => {
           <div className="row">
             <div className="col-lg-6 wow fadeInUp" data-wow-delay=".5s">
               <div className="img">
-                <img src="/img/tr/time.webp" className="" alt="" />
+                <img
+                  src="/img/tr/time.webp"
+                  className=""
+                  alt="TR Energia Time"
+                />
               </div>
             </div>
             <div className="col-lg-6 valign">

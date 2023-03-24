@@ -80,7 +80,7 @@ const ContactForm = () => {
                   }}
                   onSubmit={async (values) => {
                     values.phoneNumber = phoneNumber;
-                    await fetch("/api/contact/", {
+                    await fetch("/api/contact", {
                       method: "POST",
                       headers: {
                         Accept: "application/json, text/plain, */*",
