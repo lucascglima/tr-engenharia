@@ -12,15 +12,7 @@ class MyDocument extends Document {
     return (
       <Html lang="pt">
         <Head>
-          <link
-            href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
-            rel="stylesheet"
-          />
-          <script
-            async
-            src="https://www.googletagmanager.com/gtag/js?id=G-WE3ST3KW82"
-          ></script>
-          <link href="../common/googleTagManager.js"></link>
+          <meta name="author" content="Lucas Lima" />
         </Head>
 
         <body>

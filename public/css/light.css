@@ -37,21 +37,21 @@
 /* ====================== [ Start Typography  ] ====================== */
 @import "/css/main.css";
 @import "/css/form-reduction.css";
-@import "/css/bootstrap.min.css";
+/* @import "/css/bootstrap.min.css"; */
 @import "/css/animate.css";
 @import "/css/font-awesome.min.css";
 @import "/css/ionicons.min.css";
-@import "/css/pe-icon.min.css";
-@import "/css/font-awesome.min.css";
-@import "../fonts/Suprapower-Heavy.ttf";
-@import "../fonts/Suprapower-HeavyOutlined.ttf" * {
+/* @import "/css/pe-icon.min.css"; */
+/* @import "/css/font-awesome.min.css"; */
+/* @import "../fonts/Suprapower-Heavy.ttf"; */
+/* @import "../fonts/Suprapower-HeavyOutlined.ttf" * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   outline: none;
   list-style: none;
-}
+} */
 /* @import "../fonts/TTTravels-Bold.otf";
 @import "../fonts/TTTravels-Light.otf";
 @import "../fonts/TTTravels-Medium.otf"; */
@@ -3457,8 +3457,8 @@ body {
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   transition: all 0.4s;
-  width: 100%;
-  margin: 6px;
+  width: 90%;
+  padding: 12px;
 }
 
 .clients .brands .img .link {
@@ -4738,6 +4738,9 @@ body {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   background: transparent;
 }
+.form-group {
+  margin-bottom: 8px;
+}
 
 .contact-sec.style2 .form input,
 .contact-sec.style2 .form textarea {
@@ -4753,8 +4756,7 @@ body {
   width: 100%;
   padding: 15px 0;
   background: transparent;
-  border: 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 .contact .form textarea {
@@ -5695,6 +5697,15 @@ footer .item .copy-right p a {
 }
 
 @media screen and (max-width: 480px) {
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  .form-group {
+    margin-bottom: 8px;
+  }
+  .fw-100 .text-u .ls2 .mb-10 {
+    text-align: center;
+  }
   .hamenu .cont-info {
     display: none;
   }
@@ -5822,7 +5833,7 @@ footer .item .copy-right p a {
   .min-area .content h4,
   .agency .content h4 {
     /* font-size: 35px; */
-    text-align: center;
+    /* text-align: center; */
   }
   .portfolio .gallery .items {
     padding: 0 15px;

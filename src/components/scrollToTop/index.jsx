@@ -2,7 +2,7 @@ import React from "react";
 import scrollToTop from "../../common/scrollToTop";
 
 const ScrollToTop = () => {
-  React.useLayoutEffect(() => {
+  React.useEffect(() => {
     scrollToTop();
   }, []);
   return (

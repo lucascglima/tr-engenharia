@@ -20,7 +20,7 @@ const Homepage1 = () => {
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
 
-  React.useLayoutEffect(() => {
+  React.useEffect(() => {
     setInterval(() => {
       if (fixedSlider.current) {
         var slidHeight = fixedSlider.current.offsetHeight;
