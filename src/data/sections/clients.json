@@ -46,5 +46,29 @@
     "lightImage": "/img/tr/clients/bework.webp",
     "darkImage": "/img/tr/clients/bework.webp",
     "url": "Be work escritórios"
+  },
+  {
+    "id": 9,
+    "lightImage": "/img/tr/clients/lemon.webp",
+    "darkImage": "/img/tr/clients/lemon.webp",
+    "url": "Lemon"
+  },
+  {
+    "id": 10,
+    "lightImage": "/img/tr/clients/bode-do-no.webp",
+    "darkImage": "/img/tr/clients/bode-do-no.webp",
+    "url": "Bode do nô"
+  },
+  {
+    "id": 11,
+    "lightImage": "/img/tr/clients/seu-tito.webp",
+    "darkImage": "/img/tr/clients/seu-tito.webp",
+    "url": "Seu Tito"
+  },
+  {
+    "id": 12,
+    "lightImage": "/img/tr/clients/hospital-st.webp",
+    "darkImage": "/img/tr/clients/hospital-st.webp",
+    "url": "Hospital St. Terezinha"
   }
 ]

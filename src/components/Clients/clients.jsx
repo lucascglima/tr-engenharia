@@ -23,7 +23,7 @@ const Clients = ({ theme }) => {
           <div className="col-lg-8">
             <div>
               <div className="row bord">
-                {first.map((item) => (
+                {ClientsData.map((item) => (
                   <div key={item.id} className="col-md-3 col-6 brands">
                     <div
                       className="item wow fadeIn"
@@ -59,7 +59,7 @@ const Clients = ({ theme }) => {
                   </div>
                 ))}
               </div>
-              <div className="row">
+              {/* <div className="row">
                 {second.map((item) => (
                   <div
                     key={item.id}
@@ -108,7 +108,7 @@ const Clients = ({ theme }) => {
                     </div>
                   </div>
                 ))}
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

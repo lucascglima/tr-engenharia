@@ -24,14 +24,14 @@ const Services = ({ style, lines }) => {
         <div className="row">
           {featuresData.map((feature) => (
             <div key={feature.id} className="col-lg-6 wow fadeInLeft">
-              <div className="item-box item-how-works">
+              <div className="item-box item-how-works ">
                 {/* <div>
                   <span className={`icon ${feature.icon}`}></span>
                 </div> */}
                 <h5 className="fw-900">#{feature.id}</h5>
                 <div className="cont">
                   <h5 className="fw-900 mb-10">{feature.title}</h5>
-                  <p>{feature.content}</p>
+                  <p className="text-justify">{feature.content}</p>
                 </div>
               </div>
             </div>

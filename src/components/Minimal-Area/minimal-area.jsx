@@ -22,7 +22,10 @@ const MinimalArea = () => {
                 <h4 className="fw-900 text-u ls1 mb-30 color-font">
                   TR Energia Solar
                 </h4>
-                <p className="wow fadeInUp ls1" data-wow-delay=".5s">
+                <p
+                  className="wow fadeInUp ls1 text-justify"
+                  data-wow-delay=".5s"
+                >
                   Nós, da TR Energia Solar, temos como propósito fornecer
                   soluções de energia solar de qualidade para ajudar nossos
                   clientes a reduzirem seus gastos de forma simples, acessível e
@@ -31,9 +34,9 @@ const MinimalArea = () => {
                   gestão. Já construímos mais de 20 megawatts de potência em
                   projetos solares. Além disso, instalamos mais de 30 mil
                   painéis solares e temos planos ambiciosos de adicionar mais 10
-                  megawatts até o final de 2023. Estamos comprometidos em
-                  proporcionar um futuro mais sustentável para as próximas
-                  gerações, transformando o agora.
+                  megawatts até o final de 2023. <br /> <br />
+                  Estamos comprometidos em proporcionar um futuro mais
+                  sustentável para as próximas gerações, transformando o agora.
                 </p>
                 {/* <ul className="feat pl-0">
                   <li className="wow fadeInUp" data-wow-delay=".2s">

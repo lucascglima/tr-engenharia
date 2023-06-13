@@ -82,9 +82,7 @@ const Works = () => {
                           }}
                         />
                         <div className="cont">
-                          <h6 className="color-font">
-                            <a href="#0">{item.title}</a>
-                          </h6>
+                          <h6 className="color-font">{item.title}</h6>
                           <h6 className="fw-900 mb-10" data-splitting>
                             <span>{item.subtitle}</span>
                           </h6>
