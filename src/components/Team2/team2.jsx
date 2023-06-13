@@ -63,7 +63,7 @@ const Team2 = () => {
           <div className="col-lg-3 col-md-6">
             <div className="item cir md-mb50">
               <div className="img">
-                <img src="/img/tr/team-member-min.jpg" alt="Membro do time" />
+                <img src="/img/tr/team/rodrigo.jpg" alt="Membro do time" />
                 <div id="circle2">
                   <svg
                     version="1.1"
@@ -103,7 +103,7 @@ const Team2 = () => {
           <div className="col-lg-3 col-md-6">
             <div className="item cir sm-mb50">
               <div className="img">
-                <img src="/img/tr/team-member-min.jpg" alt="Membro do time" />
+                <img src="/img/tr/team/murilo.jpg" alt="Membro do time" />
                 <div id="circle3">
                   <svg
                     version="1.1"
