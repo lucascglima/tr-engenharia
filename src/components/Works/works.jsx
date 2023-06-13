@@ -82,13 +82,13 @@ const Works = () => {
                           }}
                         />
                         <div className="cont">
-                          <h6 className="color-font">{item.title}</h6>
-                          <h6 className="fw-900 mb-10" data-splitting>
+                          <h4 className="color-font">{item.title}</h4>
+                          {/* <h6 className="fw-900 mb-10" data-splitting>
                             <span>{item.subtitle}</span>
                           </h6>
                           <h5 className="fw-900 mb-10" data-splitting>
                             <span>{item.secTex}</span>
-                          </h5>
+                          </h5> */}
                         </div>
                       </div>
                     </SwiperSlide>
