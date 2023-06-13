@@ -1,42 +1,27 @@
 [
   {
     "id": 1,
-    "title": "Usina Hotel dos prazeres",
+    "title": "Usina Vitória",
     "subtitle": "Economia",
-    "secTex": "R$ 117.720/ano",
-    "image": "/img/tr/usinas/usina-hotel-dos-prazeres.jpg",
+    "secTex": "R$ 18 milhões/ano",
+    "image": "/img/tr/usinas/usina-vitoria.png",
     "slug": "/project-details2/project-details2-dark"
   },
+
   {
     "id": 2,
-    "title": "Usina Serrambi 2",
+    "title": "Usina Nelson Galvão",
     "subtitle": "Economia",
-    "secTex": "R$ 16.000/ano",
-    "image": "/img/tr/usinas-min.jpg",
+    "secTex": "R$1,25 milhões/ano",
+    "image": "/img/tr/usinas/nelson-galvao-2.png",
     "slug": "/project-details2/project-details2-dark"
   },
   {
     "id": 3,
-    "title": "Usina Serrambi 3",
+    "title": "Usinas Aliança 1",
     "subtitle": "Economia",
-    "secTex": "R$ 16.000/ano",
-    "image": "/img/tr/usinas-min.jpg",
-    "slug": "/project-details2/project-details2-dark"
-  },
-  {
-    "id": 4,
-    "title": "Usina Serrambi 4",
-    "subtitle": "Economia",
-    "secTex": "R$ 16.000/ano",
-    "image": "/img/tr/usinas-min.jpg",
-    "slug": "/project-details2/project-details2-dark"
-  },
-  {
-    "id": 5,
-    "title": "Usina Serrambi 5",
-    "subtitle": "Economia",
-    "secTex": "R$ 16.000/ano",
-    "image": "/img/tr/usinas-min.jpg",
+    "secTex": "R$900 mil/ano",
+    "image": "/img/tr/usinas/kike.png",
     "slug": "/project-details2/project-details2-dark"
   }
 ]

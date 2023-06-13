@@ -55,7 +55,7 @@ const Homepage1 = () => {
         <AboutUs />
         <Services />
         <Numbers2 />
-        {/* <Works /> */}
+        <Works />
         <Clients theme="light" />
         <MinimalArea />
         {/* <Team2 /> */}

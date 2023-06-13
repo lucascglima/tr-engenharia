@@ -3,7 +3,7 @@ import worksData from "../../data/sections/works.json";
 import { Swiper, SwiperSlide } from "swiper/react";
 // import Swiper core and required modules
 import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
-import Link from "next/link";
+
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -46,7 +46,7 @@ const Works = () => {
                   });
                 }}
                 autoplay={{
-                  delay: 2500,
+                  delay: 3000,
                   disableOnInteraction: false,
                 }}
                 speed={1000}
@@ -73,7 +73,7 @@ const Works = () => {
                     <SwiperSlide className="swiper-slide" key={item.id}>
                       <div
                         className="content wow noraidus fadeInUp"
-                        data-wow-delay=".3s"
+                        data-wow-delay=".5s"
                       >
                         <div
                           className="item-img bg-img wow imago"
@@ -82,22 +82,12 @@ const Works = () => {
                           }}
                         />
                         <div className="cont">
-                          <h6 className="color-font">
-                            <a href="#0">{item.title}</a>
-                          </h6>
+                          <h6 className="color-font">{item.title}</h6>
                           <h6 className="fw-900 mb-10" data-splitting>
-                            <Link
-                              href={`/project-details2/project-details2-dark`}
-                            >
-                              {item.subtitle}
-                            </Link>
+                            <span>{item.subtitle}</span>
                           </h6>
                           <h5 className="fw-900 mb-10" data-splitting>
-                            <Link
-                              href={`/project-details2/project-details2-dark`}
-                            >
-                              {item.secTex}
-                            </Link>
+                            <span>{item.secTex}</span>
                           </h5>
                         </div>
                       </div>
