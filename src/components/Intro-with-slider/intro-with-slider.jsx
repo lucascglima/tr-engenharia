@@ -55,9 +55,7 @@ const IntroWithSlider = ({ sliderRef }) => {
                           Sustentável.
                         </h1>
                         {slide?.content && (
-                          <p className="wow fadeInUp ls1 text-justify">
-                            {slide.content}
-                          </p>
+                          <p className="wow fadeInUp ls1 ">{slide.content}</p>
                         )}
                         <Link href="/account-reduction">
                           <a className="butn mt-30 btn-cta">
