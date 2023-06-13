@@ -64,7 +64,7 @@ const Numbers2 = () => {
                   </h4>
                   <Split>
                     <h5 className="fw-900 mb-10" data-splitting>
-                      Economia mensal em milhões de reais
+                      Economia mensal
                     </h5>
                   </Split>
                 </div>
@@ -84,7 +84,7 @@ const Numbers2 = () => {
                   </h4>
                   <Split>
                     <h5 className="fw-900 mb-10" data-splitting>
-                      GWh (Gigawatt-hora) de Geração mensal
+                      GWh (Gigawatt-hora) geração /mês
                     </h5>
                   </Split>
                 </div>
@@ -103,7 +103,7 @@ const Numbers2 = () => {
                     </CountUp>
                   </h4>
                   <Split>
-                    <h5 className="fw-900 mb-10">Toneladas de CO² por ano</h5>
+                    <h5 className="fw-900 mb-10">Toneladas de CO² /ano</h5>
                   </Split>
                 </div>
               </div>
