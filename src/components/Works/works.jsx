@@ -46,7 +46,7 @@ const Works = () => {
                   });
                 }}
                 autoplay={{
-                  delay: 2500,
+                  delay: 3000,
                   disableOnInteraction: false,
                 }}
                 speed={1000}
@@ -73,7 +73,7 @@ const Works = () => {
                     <SwiperSlide className="swiper-slide" key={item.id}>
                       <div
                         className="content wow noraidus fadeInUp"
-                        data-wow-delay=".3s"
+                        data-wow-delay=".5s"
                       >
                         <div
                           className="item-img bg-img wow imago"
