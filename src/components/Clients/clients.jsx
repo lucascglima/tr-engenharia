@@ -46,13 +46,12 @@ const Clients = ({ theme }) => {
                           <img src={item.darkImage} alt="clientes" />
                         )}
                         <Split>
-                          <a
-                            href="#0"
+                          <span
                             className="link words chars splitting"
                             data-splitting
                           >
                             {item.url}
-                          </a>
+                          </span>
                         </Split>
                       </div>
                     </div>
