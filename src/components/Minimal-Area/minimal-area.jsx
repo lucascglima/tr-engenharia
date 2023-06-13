@@ -23,16 +23,19 @@ const MinimalArea = () => {
                   TR Energia Solar
                 </h4>
                 <p className="wow fadeInUp ls1" data-wow-delay=".5s">
-                  <strong>
-                    Prontos para mudar o futuro, transformando o agora.
-                    <br />
-                  </strong>
-                  Temos o objetivo de otimizar as soluções no ramo de energia
-                  solar, para os clientes que querem reduzir seus custos de
-                  energia elétrica convencional, de forma mais sustentável e
-                  inteligente.
+                  Nós, da TR Energia Solar, temos como propósito fornecer
+                  soluções de energia solar de qualidade para ajudar nossos
+                  clientes a reduzirem seus gastos de forma simples, acessível e
+                  segura. Somos responsáveis por todo o ciclo de vida dos
+                  projetos, desde a construção até a operação, manutenção e
+                  gestão. Já construímos mais de 20 megawatts de potência em
+                  projetos solares. Além disso, instalamos mais de 30 mil
+                  painéis solares e temos planos ambiciosos de adicionar mais 10
+                  megawatts até o final de 2023. Estamos comprometidos em
+                  proporcionar um futuro mais sustentável para as próximas
+                  gerações, transformando o agora.
                 </p>
-                <ul className="feat pl-0">
+                {/* <ul className="feat pl-0">
                   <li className="wow fadeInUp" data-wow-delay=".2s">
                     <h5 className="fw-900 mb-10">Missão</h5>
                     <p className="wow fadeInUp ls1 pl-0">
@@ -57,7 +60,7 @@ const MinimalArea = () => {
                       Comprometimento com o meio ambiente
                     </p>
                   </li>
-                </ul>
+                </ul> */}
               </div>
             </div>
           </div>

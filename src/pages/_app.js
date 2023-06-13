@@ -44,6 +44,11 @@ function MyApp({ Component, pageProps }) {
           rel="stylesheet"
           crossorigin="anonymous"
         />
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-WE3ST3KW82"
+        ></script>
+        <link href="../common/googleTagManager.js"></link>
       </Head>
       <LoadingScreen />
       <Component {...pageProps} />
