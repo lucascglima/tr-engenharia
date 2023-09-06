@@ -26,12 +26,11 @@ function MyApp({ Component, pageProps }) {
           content="Reduza os gastos da sua empresa, utilizando energia limpa e sustentável. Com zero investimento, você economiza 20% do custo de energia."
         />
         <link rel="icon" href="/img/tr/favicon.ico" />
+
         <link
-          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
           rel="stylesheet"
-          integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
-          crossorigin="anonymous"
-        />
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+        ></link>
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
@@ -44,10 +43,8 @@ function MyApp({ Component, pageProps }) {
           rel="stylesheet"
           crossorigin="anonymous"
         />
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-WE3ST3KW82"
-        ></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>
+        <script src="https://www.googletagmanager.com/gtag/js?id=G-WE3ST3KW82"></script>
         <link href="../common/googleTagManager.js"></link>
       </Head>
       <LoadingScreen />
@@ -73,11 +70,11 @@ function MyApp({ Component, pageProps }) {
       <Script id="wowInit" strategy="lazyOnload">
         {`new wow().init();`}
       </Script>
-      <Script
+      {/* <Script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
         crossorigin="anonymous"
-      ></Script>
+      ></Script> */}
 
       <Script
         nomodule
