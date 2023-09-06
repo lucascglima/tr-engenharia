@@ -10,7 +10,7 @@ const MinimalArea = () => {
             <div className="col-lg-6 wow fadeInUp" data-wow-delay=".5s">
               <div className="img">
                 <img
-                  src="/img/tr/usinas/usina-vitoria-2.png"
+                  src="/img/tr/usinas/usina-vitoria-2.webp"
                   className=""
                   alt="TR Energia Time"
                 />
