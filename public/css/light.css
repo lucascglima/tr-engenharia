@@ -5300,6 +5300,9 @@ footer .item .copy-right p a {
 }
 
 @media screen and (max-width: 767px) {
+  .how-it-works-box {
+    display: none !important;
+  }
   .navbar-nav > li {
     margin: 16px !important;
   }
@@ -5697,6 +5700,9 @@ footer .item .copy-right p a {
 }
 
 @media screen and (max-width: 480px) {
+  .how-it-works-box {
+    display: none !important;
+  }
   .navbar-toggler:focus {
     box-shadow: none;
   }
@@ -6144,4 +6150,8 @@ iframe {
 }
 .text-justify {
   text-align: justify;
+}
+
+.how-it-works-box {
+  padding: 48px;
 }

@@ -21,6 +21,9 @@ const Services = ({ style, lines }) => {
             </div>
           </div>
         </div>
+        <div className="row how-it-works-box">
+          <img src="img/tr/how-it-works-art.webp" alt="how-it-works" />
+        </div>
         <div className="row">
           {featuresData.map((feature) => (
             <div key={feature.id} className="col-lg-6 wow fadeInLeft">

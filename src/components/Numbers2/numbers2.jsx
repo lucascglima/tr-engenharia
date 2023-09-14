@@ -33,7 +33,7 @@ const Numbers2 = () => {
                   <span className="icon pe-7s-sun"></span>
                   <h4 className="fw-900 text-u ls1 mb-30 color-font text-center">
                     &nbsp;
-                    <CountUp redraw={true} end={70} duration="1.5">
+                    <CountUp redraw={true} end={200} duration="1.5">
                       {({ countUpRef, start }) => (
                         <VisibilitySensor onChange={start} delayedCall>
                           <span className="count" ref={countUpRef} />
@@ -53,7 +53,7 @@ const Numbers2 = () => {
                   <span className="icon pe-7s-cash"></span>
                   <h4 className="fw-900 text-u ls1 mb-30 color-font">
                     &nbsp; R${" "}
-                    <CountUp redraw={true} end={19} duration="1.5">
+                    <CountUp redraw={true} end={20} duration="1.5">
                       {({ countUpRef, start }) => (
                         <VisibilitySensor onChange={start} delayedCall>
                           <span className="count" ref={countUpRef} />
@@ -74,7 +74,7 @@ const Numbers2 = () => {
                   <span className="icon pe-7s-gleam"></span>
                   <h4 className="fw-900 text-u ls1 mb-30 color-font">
                     &nbsp;
-                    <CountUp redraw={true} end={2715} duration="1.5">
+                    <CountUp redraw={true} end={20} duration="1.5">
                       {({ countUpRef, start }) => (
                         <VisibilitySensor onChange={start} delayedCall>
                           <span className="count" ref={countUpRef} />
@@ -84,7 +84,7 @@ const Numbers2 = () => {
                   </h4>
                   <Split>
                     <h5 className="fw-900 mb-10" data-splitting>
-                      GWh (Gigawatt-hora) geração /mês
+                      MWp (megawatts-hora) /mês
                     </h5>
                   </Split>
                 </div>
