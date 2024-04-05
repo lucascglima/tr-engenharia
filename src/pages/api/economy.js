@@ -223,7 +223,7 @@ export default async function (req, res) {
 
         <p/>
         <p>
-        Se você tiver alguma dúvida ou preocupação em relação ao seu sistema, sinta-se à vontade para entrar em contato com nossa equipe de atendimento ao cliente em (81) 99877-5665 ou envie-nos um e-mail para contato@trenergia.eco.br. Nossa equipe está sempre disponível para ajudá-lo com qualquer dúvida que possa ter.
+        Se você tiver alguma dúvida ou preocupação em relação ao seu sistema, sinta-se à vontade para entrar em contato com nossa equipe de atendimento ao cliente em (81) 99877-5665 ou envie-nos um e-mail para contato@trenergiasolar.eco.br. Nossa equipe está sempre disponível para ajudá-lo com qualquer dúvida que possa ter.
 
         <p/>
         <p>

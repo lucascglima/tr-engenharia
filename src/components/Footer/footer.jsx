@@ -25,7 +25,7 @@ const Footer = ({ hideBGCOLOR }) => {
                   <span className="icon pe-7s-mail"></span>
                   <div className="cont">
                     <h6>Email Us</h6>
-                    <p>contato@trenergia.eco.br</p>
+                    <p>contato@trenergiasolar.eco.br</p>
                   </div>
                 </li>
                 <li>
