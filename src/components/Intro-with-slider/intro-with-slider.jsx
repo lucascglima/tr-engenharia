@@ -70,7 +70,7 @@ const IntroWithSlider = ({ sliderRef }) => {
             </SwiperSlide>
           ))}
         </Swiper>
-        <div className="social-icon">
+        {/* <div className="social-icon">
           <a href="https://api.whatsapp.com/send?phone=55819999888888">
             <i className="fab fa-whatsapp"></i>
           </a>
@@ -83,7 +83,7 @@ const IntroWithSlider = ({ sliderRef }) => {
           <a href="https://web.facebook.com/TR-Energia-Solar-108003291793647/">
             <i className="fab fa-facebook"></i>
           </a>
-        </div>
+        </div> */}
       </div>
     </header>
   );

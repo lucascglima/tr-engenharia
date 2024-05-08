@@ -1,12 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import LinkNext from "next/link";
+
 import appData from "../../data/app.json";
 import { handleDropdown, handleMobileDropdown } from "../../common/navbar";
 import { Link } from "react-scroll";
 const Navbar = ({ lr, nr, theme }) => {
   const scrollTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth", duration: "5000" });
+    window.scrollTo({ top: 0 });
   };
 
   return (
@@ -69,8 +69,6 @@ const Navbar = ({ lr, nr, theme }) => {
               <Link
                 onClick={handleDropdown}
                 to="howItWorks"
-                smooth={true}
-                duration={1000}
                 className="nav-link"
                 absolute={true}
               >
@@ -85,14 +83,8 @@ const Navbar = ({ lr, nr, theme }) => {
               aria-controls="navbarSupportedContent"
               aria-label="Toggle navigation"
             >
-              <Link
-                onClick={handleDropdown}
-                to="projects"
-                smooth={true}
-                duration={1000}
-                className="nav-link"
-              >
-                Projetos
+              <Link onClick={handleDropdown} to="projects" className="nav-link">
+                Projetos executados
               </Link>
             </li>
 
@@ -103,13 +95,7 @@ const Navbar = ({ lr, nr, theme }) => {
               aria-controls="navbarSupportedContent"
               aria-label="Toggle navigation"
             >
-              <Link
-                onClick={handleDropdown}
-                to="whoWeAre"
-                smooth={true}
-                duration={1000}
-                className="nav-link"
-              >
+              <Link onClick={handleDropdown} to="whoWeAre" className="nav-link">
                 Quem somos
               </Link>
             </li>
@@ -120,13 +106,7 @@ const Navbar = ({ lr, nr, theme }) => {
               aria-controls="navbarSupportedContent"
               aria-label="Toggle navigation"
             >
-              <Link
-                onClick={handleDropdown}
-                to="footer"
-                smooth={true}
-                duration={1000}
-                className="nav-link"
-              >
+              <Link onClick={handleDropdown} to="footer" className="nav-link">
                 Contato
               </Link>
             </li>

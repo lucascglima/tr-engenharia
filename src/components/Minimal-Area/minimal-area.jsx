@@ -14,6 +14,7 @@ const MinimalArea = () => {
                   className=""
                   alt="TR Energia Time"
                 />
+                <h6 className="fw-100 ls1 mt-10 ">Usina Rov Solar</h6>
               </div>
             </div>
             <div className="col-lg-6 valign">
